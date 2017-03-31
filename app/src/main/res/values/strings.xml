@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GeoRING</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Parametres</string>
+    <string name="Recording">Android Audio Recording Application</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="play">play</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="mapKey">AIzaSyBWJTY_2Ny4f6jlYL5JJaarwh13HcJbChM</string>
+
+    <string name="title_activity_threedview">threedview</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

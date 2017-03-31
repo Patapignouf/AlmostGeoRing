@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Patapignouf\.android\build-cache\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="X:\Workspace\geoapp_repository_git\app\build\intermediates\pre-dexed\debug\classes_ebe5b4e359e590d013cefe5f1d4b73bb0e21ca80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Patapignouf\.android\build-cache\a6d10263ef7702dcc59193ceedf438bf7a2de52f\output\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="X:\Workspace\geoapp_repository_git\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_dcfa31a78364e6fad76a838138fd3d1d06e2a6b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Patapignouf\.android\build-cache\d9d2580a496b6e3783ced78af08b045375f594fe\output\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="X:\Workspace\geoapp_repository_git\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_3281bd9fe03d5927c9504fdbc81cf105318b9871.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="X:\Workspace\geoapp_repository_git\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcda709c41fc88a07df1c60d2a2ffe55086f8827">
+        <dex dex="X:\Workspace\geoapp_repository_git\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5cd905baa5ca53c1b4bc3334cee53e9909e95de9\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Patapignouf\.android\build-cache\d9d2580a496b6e3783ced78af08b045375f594fe\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="X:\Workspace\geoapp_repository_git\app\build\intermediates\pre-dexed\debug\classes_c4097b840969bcb01f6cbf7284860ec48104bf63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Patapignouf\.android\build-cache\a6d10263ef7702dcc59193ceedf438bf7a2de52f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="X:\Workspace\geoapp_repository_git\app\build\intermediates\pre-dexed\debug\classes_9270f3edac0f7d318db697cfd0edc4469914df3e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="X:\Workspace\geoapp_repository_git\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="X:\Workspace\geoapp_repository_git\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e602608cbb83ad60b4bfae382d62e83c220f11bb\classes.dex" />
+    </item>
+
+</items>
