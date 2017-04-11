@@ -1,10 +1,18 @@
 [
     {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
         "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
         "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

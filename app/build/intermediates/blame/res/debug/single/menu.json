@@ -2,5 +2,9 @@
     {
         "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "X:\\Workspace\\geoapp_repository_git\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "X:\\Workspace\\AlmostGeoRing\\app\\src\\main\\res\\menu\\main.xml"
     }
 ]

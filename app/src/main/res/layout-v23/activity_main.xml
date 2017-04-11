@@ -9,13 +9,13 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="9.48"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
         android:orientation="horizontal"
         android:weightSum="1">
 
         <LinearLayout
-            android:layout_width="148dp"
+            android:layout_width="128dp"
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
@@ -25,40 +25,41 @@
                 android:orientation="vertical"
                 android:weightSum="1">
 
+
                 <TextView
                     android:id="@+id/listTitle"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:layout_marginLeft="15dp"
+                    android:layout_weight="0.05"
                     android:text="Points"
                     android:textAppearance="?android:attr/textAppearanceLarge" />
 
                 <ListView
                     android:id="@+id/listView2"
                     android:layout_width="match_parent"
-                    android:layout_height="341dp"
-                    android:layout_gravity="bottom"></ListView>
+                    android:layout_gravity="bottom"
+                    android:layout_weight="0.62"></ListView>
 
                 <Button
                     android:id="@+id/add"
                     android:layout_width="match_parent"
-                    android:layout_height="43dp"
                     android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.11"
                     android:text="Ajouter" />
 
                 <Button
                     android:id="@+id/delete"
                     android:layout_width="match_parent"
-                    android:layout_height="43dp"
                     android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.11"
                     android:text="Supprimer" />
 
                 <Button
                     android:id="@+id/buttonback3"
                     android:layout_width="match_parent"
-                    android:layout_height="43dp"
                     android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.11"
                     android:text="Retour" />
 
 
@@ -99,7 +100,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="508dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:orientation="vertical"
             android:paddingLeft="6dp"
             android:paddingRight="6dp"
@@ -293,8 +295,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
-                    android:weightSum="1"
-                    android:layout_weight="1.06">
+                    android:layout_weight="1.06"
+                    android:weightSum="1">
 
                     <Switch
                         android:id="@+id/failleSwitch"
@@ -322,7 +324,7 @@
                     android:layout_height="79dp"
                     android:padding="3dp">
 
-                            <ImageButton
+                    <ImageButton
                         android:id="@+id/recording"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
