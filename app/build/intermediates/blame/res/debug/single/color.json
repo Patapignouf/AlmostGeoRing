@@ -1,23 +1,19 @@
 [
     {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_secondary_text_holo_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\660006af98656d1f95576590d4b82207d309d7f7\\output\\res\\color\\wallet_secondary_text_holo_dark.xml"
+    },
+    {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_primary_text_holo_light.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\660006af98656d1f95576590d4b82207d309d7f7\\output\\res\\color\\wallet_primary_text_holo_light.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_secondary_text_holo_dark.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\660006af98656d1f95576590d4b82207d309d7f7\\output\\res\\color\\wallet_secondary_text_holo_dark.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
@@ -28,24 +24,12 @@
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
@@ -56,8 +40,16 @@
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
     },
     {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
@@ -66,57 +58,5 @@
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_secondary_text_holo_dark.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\660006af98656d1f95576590d4b82207d309d7f7\\output\\res\\color\\wallet_secondary_text_holo_dark.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_primary_text_holo_light.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\660006af98656d1f95576590d4b82207d309d7f7\\output\\res\\color\\wallet_primary_text_holo_light.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color\\abc_search_url_text.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\color\\common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\color\\common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
     }
 ]

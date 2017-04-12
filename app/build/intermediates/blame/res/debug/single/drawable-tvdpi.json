@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_normal.9.png"
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_focused.9.png"
     },
     {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_pressed.9.png"
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_normal.9.png",
@@ -32,28 +32,24 @@
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_focused.9.png"
     },
     {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_focused.9.png",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_small_off_client.png",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\7167f8e62be0f30477a1751f70ffa77025d68736\\output\\res\\drawable-tvdpi\\ic_plusone_small_off_client.png"
+    },
+    {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_medium_off_client.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\7167f8e62be0f30477a1751f70ffa77025d68736\\output\\res\\drawable-tvdpi\\ic_plusone_medium_off_client.png"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_pressed.9.png",
@@ -64,16 +60,12 @@
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_focused.9.png"
     },
     {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_focused.9.png",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_normal.9.png"
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_full_open_on_phone.png",
@@ -84,16 +76,8 @@
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\7167f8e62be0f30477a1751f70ffa77025d68736\\output\\res\\drawable-tvdpi\\ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_pressed.9.png"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
@@ -104,144 +88,16 @@
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_focused.9.png"
-    },
-    {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_focused.9.png",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_disabled.9.png",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_focused.9.png"
-    },
-    {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_disabled.9.png",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_full_open_on_phone.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_full_open_on_phone.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_small_off_client.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\7167f8e62be0f30477a1751f70ffa77025d68736\\output\\res\\drawable-tvdpi\\ic_plusone_small_off_client.png"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_small_off_client.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\7167f8e62be0f30477a1751f70ffa77025d68736\\output\\res\\drawable-tvdpi\\ic_plusone_small_off_client.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_tall_off_client.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\7167f8e62be0f30477a1751f70ffa77025d68736\\output\\res\\drawable-tvdpi\\ic_plusone_tall_off_client.png"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_standard_off_client.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\7167f8e62be0f30477a1751f70ffa77025d68736\\output\\res\\drawable-tvdpi\\ic_plusone_standard_off_client.png"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_disabled.9.png",
@@ -252,16 +108,16 @@
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
     },
     {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
@@ -272,16 +128,12 @@
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_focused.9.png"
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_disabled.9.png"
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_medium_off_client.png",
@@ -292,7 +144,7 @@
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_normal.9.png"
     }
 ]

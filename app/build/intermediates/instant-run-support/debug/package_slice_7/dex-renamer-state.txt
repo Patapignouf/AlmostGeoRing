@@ -1,4 +1,4 @@
-#Sun Mar 26 10:08:28 CEST 2017
-base.0=X\:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
+#Tue Apr 11 13:47:38 CEST 2017
+base.0=X\:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
 renamed.0=classes.dex
-file.0=X\:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex
+file.0=X\:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex

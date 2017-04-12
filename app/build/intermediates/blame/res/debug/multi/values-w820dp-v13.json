@@ -1,48 +1,5 @@
 [
     {
-        "outputFile": "X:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 57,
-                    "endOffset": 108
-                },
-                "from": {
-                    "file": "X:\\Workspace\\geoapp_repository_git\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 305,
-                        "endColumn": 57,
-                        "endOffset": 358
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 113,
-                    "endColumn": 137,
-                    "endOffset": 246
-                },
-                "from": {
-                    "file": "X:\\Workspace\\geoapp_repository_git\\app\\src\\main\\res\\values-w820dp\\google_maps_api.xml",
-                    "position": {
-                        "startLine": 1,
-                        "startColumn": 4,
-                        "startOffset": 16,
-                        "endColumn": 137,
-                        "endOffset": 149
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {

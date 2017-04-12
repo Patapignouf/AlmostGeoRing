@@ -56,10 +56,10 @@ public class MyGLSurfaceView extends GLSurfaceView {
             case KeyEvent.KEYCODE_DPAD_DOWN:   // Increase X-rotational speed
                 renderer.speedX += 0.1f;
                 break;
-            case KeyEvent.KEYCODE_A:           // Zoom out (decrease z)
+            case KeyEvent.KEYCODE_VOLUME_DOWN:           // Zoom out (decrease z)
                 renderer.z -= 0.2f;
                 break;
-            case KeyEvent.KEYCODE_Z:           // Zoom in (increase z)
+            case KeyEvent.KEYCODE_VOLUME_UP:           // Zoom in (increase z)
                 renderer.z += 0.2f;
                 break;
         }

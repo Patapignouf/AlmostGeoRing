@@ -2,104 +2,93 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="23"
-    build-mode="FULL"
+    build-mode="COLD"
     density="xxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1490795973577"
-    token="-5066923538648884320"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="1491985569019"
+    token="-6849528208902081354"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="350" />
+        duration="571" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="814" />
+        duration="38" />
     <task
         name="verifier"
-        duration="3" />
+        duration="19" />
 
     <artifact
-        location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="X:\Workspace\geoapp_repository_git\app\build\outputs\apk\app-debug.apk"
+        location="X:\Workspace\AlmostGeoRing\app\build\outputs\apk\app-debug.apk"
         type="SPLIT_MAIN" />
-    <artifact
-        location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1490795973577"
+        timestamp="1491911629470"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="X:\Workspace\geoapp_repository_git\app\build\outputs\apk\app-debug.apk"
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1491985050826"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="X:\Workspace\AlmostGeoRing\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1491985569019"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="X:\Workspace\geoapp_repository_git\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
+            location="X:\Workspace\AlmostGeoRing\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

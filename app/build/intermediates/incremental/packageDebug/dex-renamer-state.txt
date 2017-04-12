@@ -1,7 +1,7 @@
-#Wed Mar 29 15:59:40 CEST 2017
-base.0=X\:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5cd905baa5ca53c1b4bc3334cee53e9909e95de9
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=X\:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e602608cbb83ad60b4bfae382d62e83c220f11bb\\classes.dex
-base.1=X\:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e602608cbb83ad60b4bfae382d62e83c220f11bb
-file.0=X\:\\Workspace\\geoapp_repository_git\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5cd905baa5ca53c1b4bc3334cee53e9909e95de9\\classes.dex
+#Wed Apr 12 10:16:44 CEST 2017
+base.0=X\:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_329478484d78b98010bbb5ce0e88dfe68f79a3c4
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=X\:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8857fa548f8f4f263a4b6e249ed26f278d049771\\classes.dex
+base.1=X\:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8857fa548f8f4f263a4b6e249ed26f278d049771
+file.0=X\:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_329478484d78b98010bbb5ce0e88dfe68f79a3c4\\classes.dex

@@ -86,7 +86,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
 
         // ----- Render the Pyramid -----
         gl.glLoadIdentity();                 // Reset the model-view matrix
-        gl.glTranslatef(0.0f, 0.0f, -6.0f); // Translate left and into the screen
+        gl.glTranslatef(0.0f, 0.0f, z); // Translate left and into the screen
         gl.glRotatef(angleX, 1.0f, 0.0f, 0.0f); // Rotate (NEW)
         gl.glRotatef(angleY, 0.0f, 1.0f, 0.0f); // Rotate (NEW)
         pyramid.draw(gl);                              // Draw the pyramid (NEW)
@@ -99,5 +99,6 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         angleCube += speedCube;         // (NEW)
         angleX += speedX;  // (NEW)
         angleY += speedY;  // (NEW)
+        //z += z ;
     }
 }
