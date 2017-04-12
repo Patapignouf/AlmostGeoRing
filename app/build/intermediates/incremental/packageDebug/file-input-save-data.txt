@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Apr 12 10:16:45 CEST 2017
+#Wed Apr 12 10:46:03 CEST 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=X\:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_media_route_on_mono_dark.png

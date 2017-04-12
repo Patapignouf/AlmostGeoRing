@@ -33,7 +33,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     float angleY = 0;   // (NEW)
     float speedX = 0;   // (NEW)
     float speedY = 0;   // (NEW)
-    float z = -6.0f;    // (NEW)
+    public static float z = -6.0f;    // (NEW)
 
     // Constructor
     public MyGLRenderer(Context context) {
@@ -100,5 +100,13 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         angleX += speedX;  // (NEW)
         angleY += speedY;  // (NEW)
         //z += z ;
+    }
+
+    public static float getZ() {
+        return z;
+    }
+
+    public static void setZ(float Z) {
+        z = Z;
     }
 }

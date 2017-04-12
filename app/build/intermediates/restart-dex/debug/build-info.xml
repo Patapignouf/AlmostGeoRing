@@ -6,22 +6,22 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1491985569019"
+    timestamp="1491986838145"
     token="-6849528208902081354"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="571" />
+        duration="419" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="38" />
+        duration="8" />
     <task
         name="verifier"
-        duration="19" />
+        duration="2" />
 
     <artifact
         location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
@@ -73,15 +73,39 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1491985050826"
+        timestamp="1491986752922"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
         <artifact
             location="X:\Workspace\AlmostGeoRing\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1491985569019"
+        timestamp="1491986838145"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="X:\Workspace\AlmostGeoRing\app\build\intermediates\split-apk\debug\slices\slice_8.apk"

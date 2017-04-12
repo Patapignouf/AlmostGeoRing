@@ -39,15 +39,38 @@ public class OpenGLES20Activity extends Activity {
         setContentView(R.layout.activity_threedview);
         FrameLayout frame = (FrameLayout)findViewById(R.id.visualizer);
         Button buttonback2 = (Button) findViewById(R.id.buttonback2);
+        Button buttonZoomIn = (Button) findViewById(R.id.buttonZI);
+        Button buttonZoomOut = (Button) findViewById(R.id.buttonZO);
         frame.addView(mGLView, 0);
+
+        //MyGLRenderer.setZ(4);
 
 
         buttonback2.setOnClickListener(new View.OnClickListener() {
             @Override
+
             public void onClick(View view) {
+
                 Intent intent = new Intent(OpenGLES20Activity.this, MainPrise.class);
                 intent.putExtra("Folder" , MainPrise.getProjetName());
                 startActivity(intent);
+            }
+        });
+
+        buttonZoomIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View view) {
+                MyGLRenderer.setZ(MyGLRenderer.getZ()+1);
+            }
+        });
+
+        buttonZoomOut.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View view) {
+
+                MyGLRenderer.setZ(MyGLRenderer.getZ()-1);
             }
         });
     }

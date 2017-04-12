@@ -30,16 +30,39 @@
         android:layout_height="match_parent">
 
         <Button
+            android:id="@+id/buttonZI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/buttonback2"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:text="+" />
+
+        <Button
             android:id="@+id/buttonback2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="26dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Retour"
             android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_marginBottom="29dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:text="Retour" />
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/buttonZO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonback2"
+            android:layout_alignBottom="@+id/buttonback2"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_toLeftOf="@+id/buttonback2"
+            android:layout_toStartOf="@+id/buttonback2"
+            android:text="-" />
     </RelativeLayout>
 
 
