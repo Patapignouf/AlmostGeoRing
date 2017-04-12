@@ -368,6 +368,14 @@
                         android:layout_gravity="center"
                         android:layout_weight="1"
                         android:src="@android:drawable/ic_menu_mapmode" />
+
+                    <ImageButton
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_recent_history" />
                 </LinearLayout>
 
             </TableLayout>

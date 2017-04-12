@@ -23,6 +23,7 @@ import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.EditText;
@@ -72,6 +73,7 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 		Button TDButton = (Button) findViewById(R.id.TDButton);
 		//Log.d("-------------------",TDButton.toString());
         Button buttonback3 = (Button) findViewById(R.id.buttonback3);
+        ImageButton buttondate = (ImageButton) findViewById(R.id.date);
 		nbr=pointbdd.getPointsByProject(AllClass.project).size();
 		this.view = getWindow().getDecorView().findViewById(android.R.id.content);
 		getSupportActionBar().setTitle("Projet: "+getIntent().getExtras().getString("Folder"));
@@ -117,6 +119,15 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
             public void onClick(View view) {
                 Intent intent = new Intent(MainPrise.this, FolderComponents.class);
                  startActivity(intent);
+            }
+        });
+
+
+        buttondate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d("","Je ne fonctionne pas encore");
+
             }
         });
 
