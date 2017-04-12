@@ -28,44 +28,52 @@
 
                 <TextView
                     android:id="@+id/listTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_margin="5dp"
-                    android:layout_marginLeft="15dp"
-                    android:layout_weight="0.05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.03"
+                    android:elevation="1dp"
                     android:text="Points"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:layout_height="wrap_content" />
+                    android:textSize="25sp" />
 
                 <ListView
                     android:id="@+id/listView2"
                     android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
-                    android:layout_weight="0.7"
-                    android:layout_height="wrap_content"></ListView>
+                    android:layout_weight="0.73"></ListView>
 
                 <Button
                     android:id="@+id/add"
                     android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_weight="0.08"
                     android:text="Ajouter"
-                    android:layout_height="wrap_content" />
+                    android:textSize="12sp" />
 
                 <Button
                     android:id="@+id/delete"
                     android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_weight="0.08"
                     android:text="Supprimer"
-                    android:layout_height="wrap_content" />
+                    android:textSize="12sp" />
 
                 <Button
                     android:id="@+id/buttonback3"
                     android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_weight="0.08"
+                    android:autoText="false"
                     android:text="Retour"
-                    android:layout_height="wrap_content" />
+                    android:textScaleX="1"
+                    android:textSize="12sp" />
 
 
             </LinearLayout>

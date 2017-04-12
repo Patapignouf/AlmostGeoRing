@@ -84,10 +84,13 @@ public class Pyramid {
     };
 
     private byte[] indices = { // Vertex indices of the 4 Triangles
-            2, 4, 3,   // front face (CCW)
-            1, 4, 2,   // right face
-            0, 4, 1,   // back face
-            4, 0, 3    // left face
+            2, 2, 2, 2,   // front face (CCW)
+            1, 4, 2, 1,  // right face
+            0, 4, 1, 3,  // back face
+            4, 0, 3, 4,   // left face
+            2, 2, 2, 2,
+            2, 2, 2, 2,
+            2, 2, 2, 2
     };
 
     // Constructor - Set up the buffers

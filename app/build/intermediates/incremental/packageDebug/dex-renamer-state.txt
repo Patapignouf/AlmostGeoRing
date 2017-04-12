@@ -1,4 +1,4 @@
-#Wed Apr 12 10:46:03 CEST 2017
+#Wed Apr 12 11:23:40 CEST 2017
 base.0=X\:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_329478484d78b98010bbb5ce0e88dfe68f79a3c4
 renamed.1=classes2.dex
 renamed.0=classes.dex
