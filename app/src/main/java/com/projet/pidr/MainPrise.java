@@ -48,7 +48,9 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 	View view;
 	Button add;
 	Button delete;
-	//Button TDButton;
+	Button TDButton;
+	Button buttonback3;
+	ImageButton buttondate;
 	OurAdapter listAdapter;
 	OurAdapter listAdapter2;
 	ListView list;
@@ -70,10 +72,39 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 		AllClass.project=getIntent().getExtras().getString("Folder");
 		MainPrise.pointbdd = new PointBDD(this);
 		MainPrise.pointbdd.open();
-		Button TDButton = (Button) findViewById(R.id.TDButton);
+
 		//Log.d("-------------------",TDButton.toString());
-        Button buttonback3 = (Button) findViewById(R.id.buttonback3);
-        ImageButton buttondate = (ImageButton) findViewById(R.id.date);
+
+		TDButton = (Button) findViewById(R.id.TDButton);
+        Log.d("-------------------",TDButton.toString());
+
+		TDButton.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(MainPrise.this, OpenGLES20Activity.class);
+				startActivity(intent);
+			}
+		});
+
+       	buttonback3 = (Button) findViewById(R.id.buttonback3);
+		buttonback3.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(MainPrise.this, FolderComponents.class);
+				startActivity(intent);
+			}
+		});
+
+        buttondate = (ImageButton) findViewById(R.id.date);
+		buttondate.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Log.d("","Je ne fonctionne pas encore");
+
+			}
+		});
+
+
 		nbr=pointbdd.getPointsByProject(AllClass.project).size();
 		this.view = getWindow().getDecorView().findViewById(android.R.id.content);
 		getSupportActionBar().setTitle("Projet: "+getIntent().getExtras().getString("Folder"));
@@ -103,33 +134,6 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
         magnetometer = mSensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
 
 
-
-		TDButton.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent intent = new Intent(MainPrise.this, OpenGLES20Activity.class);
-				startActivity(intent);
-			}
-		});
-
-
-
-        buttonback3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainPrise.this, FolderComponents.class);
-                 startActivity(intent);
-            }
-        });
-
-
-        buttondate.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Log.d("","Je ne fonctionne pas encore");
-
-            }
-        });
 
 
         new Event(this.view,this);

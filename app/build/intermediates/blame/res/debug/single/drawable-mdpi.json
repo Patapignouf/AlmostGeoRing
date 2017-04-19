@@ -336,12 +336,12 @@
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable-mdpi\\ic_media_route_on_2_mono_dark.png"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_on_1_light.png",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable-mdpi\\ic_cast_on_1_light.png"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_list_divider_mtrl_alpha.9.png",

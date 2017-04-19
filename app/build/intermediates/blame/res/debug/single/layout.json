@@ -20,6 +20,10 @@
         "source": "X:\\Workspace\\AlmostGeoRing\\app\\src\\main\\res\\layout\\activity_threedview.xml"
     },
     {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "X:\\Workspace\\AlmostGeoRing\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
     },
