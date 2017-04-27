@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="X:\Workspace\AlmostGeoRing\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="74db83b5a71f75508a8e75c4c3ca51a68e6cfe12">
-        <dex dex="X:\Workspace\AlmostGeoRing\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8857fa548f8f4f263a4b6e249ed26f278d049771\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="X:\Workspace\AlmostGeoRing\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="X:\Workspace\AlmostGeoRing\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_329478484d78b98010bbb5ce0e88dfe68f79a3c4\classes.dex" />
+        <dex dex="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ef3fb0fc1796a2806a958ccbf4efb657a7c38b7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9eeba18fd4261919fa91be5ec89ec92c8a374139">
+        <dex dex="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_33c70a40993eca76e17777d2ce72b66397053d4f\classes.dex" />
     </item>
 
 </items>

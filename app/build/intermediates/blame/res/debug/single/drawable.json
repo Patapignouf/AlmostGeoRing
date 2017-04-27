@@ -1,51 +1,231 @@
 [
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_dark.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable\\mr_ic_cast_dark.xml"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_dark.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable\\mr_ic_settings_dark.xml"
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_light.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable\\mr_ic_pause_light.xml"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_mono_light.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable\\mr_ic_media_route_connecting_mono_light.xml"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\6bdfcc0bbd2d79691e81afe6a6f14cc32e6b5320\\output\\res\\drawable\\mr_ic_pause_light.xml"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_mono_dark.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable\\mr_ic_media_route_connecting_mono_dark.xml"
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\cbc1ae1f1b1669c4921aabbb5dede905bac98efd\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\6bdfcc0bbd2d79691e81afe6a6f14cc32e6b5320\\output\\res\\drawable\\mr_ic_play_dark.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable\\mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\cbc1ae1f1b1669c4921aabbb5dede905bac98efd\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\cbc1ae1f1b1669c4921aabbb5dede905bac98efd\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\6bdfcc0bbd2d79691e81afe6a6f14cc32e6b5320\\output\\res\\drawable\\mr_ic_cast_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\6bdfcc0bbd2d79691e81afe6a6f14cc32e6b5320\\output\\res\\drawable\\mr_ic_media_route_mono_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_connecting.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\80bad784c6e571abddebf2bcb440b8f964909b71\\output\\res\\drawable\\cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable\\mr_ic_play_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\6bdfcc0bbd2d79691e81afe6a6f14cc32e6b5320\\output\\res\\drawable\\mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\6bdfcc0bbd2d79691e81afe6a6f14cc32e6b5320\\output\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\cbc1ae1f1b1669c4921aabbb5dede905bac98efd\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable\\mr_ic_settings_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\cbc1ae1f1b1669c4921aabbb5dede905bac98efd\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_mono_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\6bdfcc0bbd2d79691e81afe6a6f14cc32e6b5320\\output\\res\\drawable\\mr_ic_media_route_connecting_mono_dark.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\6bdfcc0bbd2d79691e81afe6a6f14cc32e6b5320\\output\\res\\drawable\\mr_ic_settings_dark.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable\\mr_ic_settings_dark.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_mono_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\6bdfcc0bbd2d79691e81afe6a6f14cc32e6b5320\\output\\res\\drawable\\mr_ic_media_route_connecting_mono_light.xml"
+    },
+    {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_mono_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable\\mr_ic_media_route_connecting_mono_dark.xml"
+    },
+    {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
@@ -56,72 +236,68 @@
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\6bdfcc0bbd2d79691e81afe6a6f14cc32e6b5320\\output\\res\\drawable\\mr_ic_cast_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\6bdfcc0bbd2d79691e81afe6a6f14cc32e6b5320\\output\\res\\drawable\\mr_ic_settings_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable\\mr_ic_pause_dark.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_dark.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable\\mr_ic_play_dark.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\cbc1ae1f1b1669c4921aabbb5dede905bac98efd\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_connecting.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\80bad784c6e571abddebf2bcb440b8f964909b71\\output\\res\\drawable\\cast_ic_notification_connecting.xml"
-    },
-    {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_light.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable\\mr_ic_cast_light.xml"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\6bdfcc0bbd2d79691e81afe6a6f14cc32e6b5320\\output\\res\\drawable\\mr_ic_play_light.xml"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_light.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable\\mr_ic_play_light.xml"
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_connecting.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\9a88178abdbede40f52e58634aeb6ec94cc46322\\output\\res\\drawable\\cast_ic_notification_connecting.xml"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\cbc1ae1f1b1669c4921aabbb5dede905bac98efd\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_light.xml",
@@ -148,20 +324,24 @@
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\36874d25a3b7c079e7979efe724c19bbb9460902\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\cbc1ae1f1b1669c4921aabbb5dede905bac98efd\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_light.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\d9d2580a496b6e3783ced78af08b045375f594fe\\output\\res\\drawable\\mr_ic_settings_light.xml"
     },
     {
         "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
@@ -176,7 +356,7 @@
         "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     }
 ]

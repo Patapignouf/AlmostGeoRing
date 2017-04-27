@@ -1,0 +1,386 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadingEdge="vertical"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:id="@+id/listTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.03"
+                    android:elevation="1dp"
+                    android:text="Points"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="25sp" />
+
+                <ListView
+                    android:id="@+id/listView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="0.73"></ListView>
+
+                <Button
+                    android:id="@+id/add"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.08"
+                    android:text="Ajouter"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/delete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.08"
+                    android:text="Supprimer"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/buttonback3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.08"
+                    android:autoText="false"
+                    android:text="Retour"
+                    android:textScaleX="1"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:layout_width="144dp"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:orientation="vertical"
+                            android:padding="3dp">
+
+                        </LinearLayout>
+
+                    </TableRow>
+
+                </TableLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/back"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/backgps"
+                        android:drawableLeft="@android:drawable/ic_menu_mylocation"
+                        android:gravity="center"
+                        android:text="GPS"
+                        android:textColor="@color/White" />
+
+                    <TextView
+                        android:id="@+id/latitude"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Latitude :" />
+
+                    <TextView
+                        android:id="@+id/longitude"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="3dp"
+                        android:text="Longitude :" />
+
+                    <TextView
+                        android:id="@+id/altitude"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:text="Altitude :" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    ImageButton
+                    android:id="@+id/gps"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/transparent"
+                    android:paddingTop="5dp"
+                    android:src="@android:drawable/ic_menu_mylocation" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/back"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/TextView06"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/backgps"
+                        android:drawableLeft="@android:drawable/ic_menu_mylocation"
+                        android:gravity="center"
+                        android:text="Mesures d&apos;orientation"
+                        android:textColor="@color/White" />
+
+                    <TextView
+                        android:id="@+id/mesAz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Azimuth :" />
+
+                    <TextView
+                        android:id="@+id/mesRoll"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:text="Pendage:" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    ImageButton
+                    android:id="@+id/mesu"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/transparent"
+                    android:paddingTop="5dp"
+                    android:src="@android:drawable/ic_menu_mylocation" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/azimuth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:padding="3dp"
+                        android:text="Azimuth : " />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/roll"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:padding="3dp"
+                        android:text="Pendage :" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/gps"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_weight="1"
+                        android:text="GPS" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+                    <Button
+                        android:id="@+id/mesu"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_weight="1"
+                        android:text="Mesures d&apos;orientations" />
+                </TableRow>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_weight="1.06"
+                    android:weightSum="1">
+
+                    <Switch
+                        android:id="@+id/failleSwitch"
+                        android:layout_width="104dp"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_gravity="left"
+                        android:layout_weight="0.99"
+                        android:checked="false"
+                        android:text="Faille" />
+
+                    <Button
+                        android:id="@+id/TDButton"
+                        android:layout_width="68dp"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_gravity="right"
+                        android:text="3D" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="79dp"
+                    android:padding="3dp">
+
+                    <ImageButton
+                        android:id="@+id/recording"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_btn_speak_now" />
+
+                    <ImageButton
+                        android:id="@+id/note"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_edit" />
+
+                    <ImageButton
+                        android:id="@+id/photo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_camera" />
+
+                    <ImageButton
+                        android:id="@+id/map"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_mapmode" />
+
+                    <ImageButton
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@android:drawable/ic_menu_recent_history" />
+                </LinearLayout>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
