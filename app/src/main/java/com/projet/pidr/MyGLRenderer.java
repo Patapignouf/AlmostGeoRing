@@ -20,9 +20,12 @@ import android.content.Context;
 import android.opengl.GLSurfaceView;
 import android.opengl.GLU;
 
+import java.util.ArrayList;
+
 public class MyGLRenderer implements GLSurfaceView.Renderer {
 
     private Pyramid pyramid;    // (NEW)
+    private Pyramid pyramid2;
     //private Cube cube;          // (NEW)
 
     private static float anglePyramid = 0; // Rotational angle in degree for pyramid (NEW)
@@ -34,11 +37,123 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     float speedX = 0;   // (NEW)
     float speedY = 0;   // (NEW)
     public static float z = -6.0f;    // (NEW)
+    private float[] vertices = {  // Vertices of the 6 faces
+            // FRONT
+            -1.0f, -1.0f,  1.0f,  // 0. left-bottom-front    D/H/P
+            1.0f, -1.0f,  1.0f,  // 1. right-bottom-front
+            -1.0f,  1.0f,  1.0f,  // 2. left-top-front
+            1.0f,  1.0f,  1.0f,  // 3. right-top-front
+            // BACK
+            1.0f, -1.0f, -1.0f,  // 6. right-bottom-back
+            -1.0f, -1.0f, -1.0f,  // 4. left-bottom-back
+            1.0f,  1.0f, -1.0f,  // 7. right-top-back
+            -1.0f,  1.0f, -1.0f,  // 5. left-top-back
+            // LEFT
+            -1.0f, -1.0f, -1.0f,  // 4. left-bottom-back
+            -1.0f, -1.0f,  1.0f,  // 0. left-bottom-front
+            -1.0f,  1.0f, -1.0f,  // 5. left-top-back
+            -1.0f,  1.0f,  1.0f,  // 2. left-top-front
+            // RIGHT
+            1.0f, -1.0f,  1.0f,  // 1. right-bottom-front
+            1.0f, -1.0f, -1.0f,  // 6. right-bottom-back
+            1.0f,  1.0f,  1.0f,  // 3. right-top-front
+            1.0f,  1.0f, -1.0f,  // 7. right-top-back
+            // TOP
+            -1.0f,  1.0f,  1.0f,  // 2. left-top-front
+            1.0f,  1.0f,  1.0f,  // 3. right-top-front
+            -1.0f,  1.0f, -1.0f,  // 5. left-top-back
+            1.0f,  1.0f, -1.0f,  // 7. right-top-back
+            // BOTTOM
+            -1.0f, -1.0f, -1.0f,  // 4. left-bottom-back
+            1.0f, -1.0f, -1.0f,  // 6. right-bottom-back
+            -1.0f, -1.0f,  1.0f,  // 0. left-bottom-front
+            1.0f, -1.0f,  1.0f,   // 1. right-bottom-front
+
+            1.0f, 1.0f, 1.0f,  // D/H/P
+            0.0f, 1.5f, 1.0f,  //
+            1.0f, 1.0f, -1.0f,  //
+            0.0f, 1.5f, -1.0f,   //
+
+
+            -1.0f, 1.0f, 1.0f,  //
+            0.0f, 1.5f, 1.0f,  //
+            -1.0f, 1.0f, -1.0f,  //
+            0.0f, 1.5f, -1.0f,   //
+
+            1.0f, 1.0f, 1.0f,  //
+            -1.0f, 1.0f, 1.0f,  //
+            0.0f, 1.5f,  1.0f,  //
+            0.0f, 1.5f,  1.0f,  //
+
+    };
+
+    private float[] vertices2 = {  // Vertices of the 6 faces
+            // FRONT
+            2.0f, -1.0f,  1.0f,  // 0. left-bottom-front    D/H/P
+            4.0f, -1.0f,  1.0f,  // 1. right-bottom-front
+            2.0f,  1.0f,  1.0f,  // 2. left-top-front
+            4.0f,  1.0f,  1.0f,  // 3. right-top-front
+            // BACK
+            4.0f, -1.0f, -1.0f,  // 6. right-bottom-back
+            2.0f, -1.0f, -1.0f,  // 4. left-bottom-back
+            4.0f,  1.0f, -1.0f,  // 7. right-top-back
+            2.0f,  1.0f, -1.0f,  // 5. left-top-back
+            // LEFT
+            2.0f, -1.0f, -1.0f,  // 4. left-bottom-back
+            2.0f, -1.0f,  1.0f,  // 0. left-bottom-front
+            2.0f,  1.0f, -1.0f,  // 5. left-top-back
+            2.0f,  1.0f,  1.0f,  // 2. left-top-front
+            // RIGHT
+            4.0f, -1.0f,  1.0f,  // 1. right-bottom-front
+            4.0f, -1.0f, -1.0f,  // 6. right-bottom-back
+            4.0f,  1.0f,  1.0f,  // 3. right-top-front
+            4.0f,  1.0f, -1.0f,  // 7. right-top-back
+            // TOP
+            2.0f,  1.0f,  1.0f,  // 2. left-top-front
+            4.0f,  1.0f,  1.0f,  // 3. right-top-front
+            2.0f,  1.0f, -1.0f,  // 5. left-top-back
+            4.0f,  1.0f, -1.0f,  // 7. right-top-back
+            // BOTTOM
+            2.0f, -1.0f, -1.0f,  // 4. left-bottom-back
+            4.0f, -1.0f, -1.0f,  // 6. right-bottom-back
+            2.0f, -1.0f,  1.0f,  // 0. left-bottom-front
+            4.0f, -1.0f,  1.0f,   // 1. right-bottom-front
+
+            4.0f, 1.0f, 1.0f,  // D/H/P
+            3.0f, 1.5f, 1.0f,  //
+            4.0f, 1.0f, -1.0f,  //
+            3.0f, 1.5f, -1.0f,   //
+
+
+            2.0f, 1.0f, 1.0f,  //
+            3.0f, 1.5f, 1.0f,  //
+            2.0f, 1.0f, -1.0f,  //
+            3.0f, 1.5f, -1.0f,   //
+
+            4.0f, 1.0f, 1.0f,  //
+            2.0f, 1.0f, 1.0f,  //
+            3.0f, 1.5f,  1.0f,  //
+            3.0f, 1.5f,  1.0f,  //
+    };
+
+
+    public ArrayList<Point3D> PPP(ArrayList<Point3D> list){
+
+        ArrayList<Point3D> result = new ArrayList<Point3D>();
+        float distance
+
+
+        return result;
+    }
+
+
+
 
     // Constructor
     public MyGLRenderer(Context context) {
         // Set up the buffers for these shapes
-        pyramid = new Pyramid();   // (NEW)
+        pyramid = new Pyramid(vertices, 9);   // (NEW)
+        pyramid2 = new Pyramid(vertices2, 9);
         //cube = new Cube();         // (NEW)
     }
 
@@ -90,7 +205,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         gl.glRotatef(angleX, 1.0f, 0.0f, 0.0f); // Rotate (NEW)
         gl.glRotatef(angleY, 0.0f, 1.0f, 0.0f); // Rotate (NEW)
         pyramid.draw(gl);                              // Draw the pyramid (NEW)
-
+        pyramid2.draw(gl);
         // ----- Render the Color Cube -----
                  // Draw the cube (NEW)
 

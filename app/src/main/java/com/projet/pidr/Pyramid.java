@@ -23,61 +23,18 @@ public class Pyramid {
     private FloatBuffer vertexBuffer;  // Buffer for vertex-array
     private FloatBuffer colorBuffer;   // Buffer for color-array
     private ByteBuffer indexBuffer;    // Buffer for index-array
-    private int numFaces = 9;
+
     private float colorsurface1 = ((float) (Math.random()*1));
     private float colorsurface2 = ((float) (Math.random()*1));
     private float colorsurface3 = ((float) (Math.random()*1));
     private float colorsurface4 = ((float) (Math.random()*1));
 
-    private float[] vertices = {  // Vertices of the 6 faces
-            // FRONT
-            -1.0f, -1.0f,  1.0f,  // 0. left-bottom-front    D/H/P
-            1.0f, -1.0f,  1.0f,  // 1. right-bottom-front
-            -1.0f,  1.0f,  1.0f,  // 2. left-top-front
-            1.0f,  1.0f,  1.0f,  // 3. right-top-front
-            // BACK
-            1.0f, -1.0f, -1.0f,  // 6. right-bottom-back
-            -1.0f, -1.0f, -1.0f,  // 4. left-bottom-back
-            1.0f,  1.0f, -1.0f,  // 7. right-top-back
-            -1.0f,  1.0f, -1.0f,  // 5. left-top-back
-            // LEFT
-            -1.0f, -1.0f, -1.0f,  // 4. left-bottom-back
-            -1.0f, -1.0f,  1.0f,  // 0. left-bottom-front
-            -1.0f,  1.0f, -1.0f,  // 5. left-top-back
-            -1.0f,  1.0f,  1.0f,  // 2. left-top-front
-            // RIGHT
-            1.0f, -1.0f,  1.0f,  // 1. right-bottom-front
-            1.0f, -1.0f, -1.0f,  // 6. right-bottom-back
-            1.0f,  1.0f,  1.0f,  // 3. right-top-front
-            1.0f,  1.0f, -1.0f,  // 7. right-top-back
-            // TOP
-            -1.0f,  1.0f,  1.0f,  // 2. left-top-front
-            1.0f,  1.0f,  1.0f,  // 3. right-top-front
-            -1.0f,  1.0f, -1.0f,  // 5. left-top-back
-            1.0f,  1.0f, -1.0f,  // 7. right-top-back
-            // BOTTOM
-            -1.0f, -1.0f, -1.0f,  // 4. left-bottom-back
-            1.0f, -1.0f, -1.0f,  // 6. right-bottom-back
-            -1.0f, -1.0f,  1.0f,  // 0. left-bottom-front
-            1.0f, -1.0f,  1.0f,   // 1. right-bottom-front
-
-            1.0f, 1.0f, 1.0f,  // D/H/P
-            0.0f, 1.5f, 1.0f,  //
-            1.0f, 1.0f, -1.0f,  //
-            0.0f, 1.5f, -1.0f,   //
 
 
-            -1.0f, 1.0f, 1.0f,  //
-            0.0f, 1.5f, 1.0f,  //
-            -1.0f, 1.0f, -1.0f,  //
-            0.0f, 1.5f, -1.0f,   //
+    private float[] vertices;
+    private int numFaces ;
 
-            1.0f, 1.0f, 1.0f,  //
-            -1.0f, 1.0f, 1.0f,  //
-            0.0f, 1.5f,  1.0f,  //
-            0.0f, 1.5f,  1.0f,  //
 
-    };
 
     private float[] colors = {  // Colors of the 5 vertices in RGBA
             /*
@@ -106,7 +63,9 @@ public class Pyramid {
     };
 
     // Constructor - Set up the buffers
-    public Pyramid() {
+    public Pyramid(float[] vertices, int numFaces) {
+        this.vertices = vertices;
+        this.numFaces = numFaces;
         // Setup vertex-array buffer. Vertices in float. An float has 4 bytes
         ByteBuffer vbb = ByteBuffer.allocateDirect(vertices.length * 4);
         vbb.order(ByteOrder.nativeOrder()); // Use native byte order
