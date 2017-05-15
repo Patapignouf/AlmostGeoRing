@@ -137,16 +137,64 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     };
 
 
-    public ArrayList<Point3D> PPP(ArrayList<Point3D> list){
-
+    public ArrayList<Point3D> PPP(ArrayList<Point3D> listPoints, float rayon){
+        //Fonction à revoir pour s'adapter à la nouvelle méthode de résoltion du problème
         ArrayList<Point3D> result = new ArrayList<Point3D>();
-        float distance
 
+        float x = interestPoint.x;
+        float y = interestPoint.y;
+        float z = interestPoint.z;
+        Point3D currentPoint2 = listPoints.get(0);
+        float x2 = currentPoint2.x;
+        float y2 = currentPoint2.y;
+        float z2 = currentPoint2.z;
+        float distance2=(float) Math.sqrt(Math.pow(x-x2,2)+Math.pow(y-y2,2)+Math.pow(z-z2,2));
+        Point3D currentPoint3 = listPoints.get(1);
+        float x3 = currentPoint3.x;
+        float y3 = currentPoint3.y;
+        float z3 = currentPoint3.z;
+        float distance3=(float) Math.sqrt(Math.pow(x-x3,2)+Math.pow(y-y3,2)+Math.pow(z-z3,2));
 
+        Point3D currentPointT;
+        float xT ;
+        float yT ;
+        float zT ;
+        float distanceT;
+
+        for (int i=0 ; i<=listPoints.size()-1; i++){
+            currentPointT = listPoints.get(i);
+            xT=currentPointT.x;
+            yT=currentPointT.y;
+            zT=currentPointT.z;
+            distanceT = (float) Math.sqrt(Math.pow(x-xT,2)+Math.pow(y-yT,2)+Math.pow(z-zT,2));
+            if ((distanceT<distance2)&&(distanceT>0)){
+                distance2=distanceT;
+                currentPoint2=currentPointT;
+
+            } else if  ((distanceT<distance3)&&(distanceT>0)) {
+                distance3=distanceT;
+                currentPoint3=currentPointT;
+            }
+
+        }
+        result.add(currentPoint2);
+        result.add(currentPoint3);
+        result.add(currentPoint3);
         return result;
     }
 
 
+    public float[] ConvertToArray(ArrayList<Point3D> listPoints){
+        float[] result = new float[listPoints.size()*3];
+
+        for (int i=0; i<result.length; i++){
+            result[i]=listPoints.get(i).x;
+            result[i+1]=listPoints.get(i).y;
+            result[i+2]=listPoints.get(i).z;
+            i=i+3;
+        }
+        return result;
+    }
 
 
     // Constructor
