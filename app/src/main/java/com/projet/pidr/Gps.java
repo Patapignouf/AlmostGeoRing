@@ -8,7 +8,9 @@ import android.content.DialogInterface;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
+import android.location.LocationProvider;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
@@ -20,7 +22,21 @@ public class Gps implements OnClickListener,LocationListener  {
 	private String choix_source="";
 	Context context;
 	View v;
-	
+    double altitude2 = 0.0;
+    private LocationProvider _locationProvider;
+    private LocationManager _locationManager;
+
+    /*
+
+	_locationManager = (LocationManager) mContext.getSystemService(LOCATION_SERVICE);
+	_locationProvider = _locationManager.getProvider(LocationManager.GPS_PROVIDER);
+	location = _locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+     _locationProvider.supportsAltitude();
+	hasaltitude = location.hasAltitude();
+	double altitude = location.getAltitude();
+	System.out.println("HasAltitude" + hasaltitude+"-"+altitude);
+	*/
+
 	public Gps(Context context, View v) {
 		this.context = context;
 		this.v=v;
@@ -77,13 +93,17 @@ public class Gps implements OnClickListener,LocationListener  {
 	private void afficherLocation() {
 		//On affiche les informations de la position a l'écran
 		Point pointFromBDD = MainPrise.pointbdd.getPointWithTitre(AllClass.prise,AllClass.project);
+        location = lManager.getLastKnownLocation(lManager.GPS_PROVIDER);
+
 		pointFromBDD.setLat(location.getLatitude());
 		pointFromBDD.setLongi(location.getLongitude());
 		pointFromBDD.setAltitude(location.getAltitude());
-		MainPrise.pointbdd.updatePoint(pointFromBDD.getId(),pointFromBDD);
+
+        MainPrise.pointbdd.updatePoint(pointFromBDD.getId(),pointFromBDD);
 		((TextView)this.v.findViewById(R.id.latitude)).setText(String.valueOf("Latitude : "+location.getLatitude()));
 		((TextView)this.v.findViewById(R.id.longitude)).setText(String.valueOf("Longitude : "+location.getLongitude()));
 		((TextView)this.v.findViewById(R.id.altitude)).setText(String.valueOf("Altitude : "+location.getAltitude()));
+		Log.d((String.valueOf(location.hasAltitude())),"+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 	}
  
 	@Override

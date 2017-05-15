@@ -1,29 +1,5 @@
 [
     {
-        "outputFile": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 76,
-                    "endOffset": 127
-                },
-                "from": {
-                    "file": "C:\\Users\\Patapignouf\\.android\\build-cache\\71b78fdd8eb7b3e6ac959d8a5edd7958edee46a2\\output\\res\\values-w720dp\\values-w720dp.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 231,
-                        "endColumn": 76,
-                        "endOffset": 303
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
         "map": [
             {
@@ -35,7 +11,7 @@
                     "endOffset": 127
                 },
                 "from": {
-                    "file": "C:\\Users\\Patapignouf\\.android\\build-cache\\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\\output\\res\\values-w720dp\\values-w720dp.xml",
+                    "file": "C:\\Users\\Patapignouf\\.android\\build-cache\\969a2aced94ac31a34211cff501c24eb4b95ca0d\\output\\res\\values-w720dp\\values-w720dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

@@ -25,8 +25,8 @@ MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Pata
 MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\Patapignouf\.android\build-cache\13a7aa7ed6faff6e153e95342089fdd82bd5064e\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Patapignouf\.android\build-cache\c83784fe303c9e8283dfe2b8db253a7c3db7c580\output\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\Patapignouf\.android\build-cache\9a88178abdbede40f52e58634aeb6ec94cc46322\output\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\Patapignouf\.android\build-cache\6bdfcc0bbd2d79691e81afe6a6f14cc32e6b5320\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Patapignouf\.android\build-cache\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\Patapignouf\.android\build-cache\e567c02e6e7e669865de6b01c504206769439617\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Patapignouf\.android\build-cache\969a2aced94ac31a34211cff501c24eb4b95ca0d\output\AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\Patapignouf\.android\build-cache\f3dd055994b3b7711ac3782f91e3c80e33d1ac9c\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\Patapignouf\.android\build-cache\9eb66c0dc9da23980ae8216b6e02c313d884603d\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\Patapignouf\.android\build-cache\2d31fc9e40acb50c097144caf7cfe577bd66a658\output\AndroidManifest.xml:18:5-42
@@ -44,7 +44,7 @@ MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Patapigno
 MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\Patapignouf\.android\build-cache\b887ba4d5f8e5cd268331d8fecdf3bb3df11bdf8\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Patapignouf\.android\build-cache\cbc1ae1f1b1669c4921aabbb5dede905bac98efd\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Patapignouf\.android\build-cache\e9b44d8e285bbe4c2bc3770cec871d527b4d55fd\output\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Patapignouf\.android\build-cache\4b6a8c26c0cf82ee7436f1a817a1bb5696d4e15b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Patapignouf\.android\build-cache\6110b57e13630f3576e6f359da1e499c7e3a4b35\output\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:9:9-38
 		INJECTED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml
@@ -69,6 +69,10 @@ uses-permission#android.permission.RECORD_AUDIO
 ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:14:5-71
 	android:name
 		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:14:22-68
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:16:22-78
 uses-feature#0x00020000
 ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:17:5-19:35
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Patapignouf\.android\build-cache\bb2dbedbaafe011a62b4b2510f56bdc671064c62\output\AndroidManifest.xml:22:5-24:33
@@ -98,8 +102,8 @@ MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Pata
 MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\Patapignouf\.android\build-cache\13a7aa7ed6faff6e153e95342089fdd82bd5064e\output\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Patapignouf\.android\build-cache\c83784fe303c9e8283dfe2b8db253a7c3db7c580\output\AndroidManifest.xml:20:5-32:19
 MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\Patapignouf\.android\build-cache\9a88178abdbede40f52e58634aeb6ec94cc46322\output\AndroidManifest.xml:19:5-20
-MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\Patapignouf\.android\build-cache\6bdfcc0bbd2d79691e81afe6a6f14cc32e6b5320\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Patapignouf\.android\build-cache\e716b49ac6b2881dbbafcbbc6bf82892107ed79c\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\Patapignouf\.android\build-cache\e567c02e6e7e669865de6b01c504206769439617\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Patapignouf\.android\build-cache\969a2aced94ac31a34211cff501c24eb4b95ca0d\output\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\Patapignouf\.android\build-cache\f3dd055994b3b7711ac3782f91e3c80e33d1ac9c\output\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\Patapignouf\.android\build-cache\9eb66c0dc9da23980ae8216b6e02c313d884603d\output\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\Patapignouf\.android\build-cache\2d31fc9e40acb50c097144caf7cfe577bd66a658\output\AndroidManifest.xml:19:5-20
@@ -115,7 +119,7 @@ MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\Patap
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Patapignouf\.android\build-cache\bb2dbedbaafe011a62b4b2510f56bdc671064c62\output\AndroidManifest.xml:27:5-20
 MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\Patapignouf\.android\build-cache\b887ba4d5f8e5cd268331d8fecdf3bb3df11bdf8\output\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Patapignouf\.android\build-cache\e9b44d8e285bbe4c2bc3770cec871d527b4d55fd\output\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Patapignouf\.android\build-cache\4b6a8c26c0cf82ee7436f1a817a1bb5696d4e15b\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Patapignouf\.android\build-cache\6110b57e13630f3576e6f359da1e499c7e3a4b35\output\AndroidManifest.xml:22:5-20
 	android:screenOrientation
 		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:30:9-45
 	android:label

@@ -1,9 +1,5 @@
 [
     {
-        "merged": "X:\\Workspace\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "X:\\Workspace\\AlmostGeoRing\\app\\src\\main\\res\\menu\\main.xml"
-    },
-    {
         "merged": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\src\\main\\res\\menu\\main.xml"
     }

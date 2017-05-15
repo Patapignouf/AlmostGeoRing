@@ -3,21 +3,66 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ef3fb0fc1796a2806a958ccbf4efb657a7c38b7f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="9eeba18fd4261919fa91be5ec89ec92c8a374139">
+        sha1="dcf96702300e02eaa62a3455c7150d221b13983e">
         <dex dex="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_33c70a40993eca76e17777d2ce72b66397053d4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Patapignouf\.android\build-cache\969a2aced94ac31a34211cff501c24eb4b95ca0d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e65a2d3e4a32fe4b536b061fb72eebceb671d3e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Patapignouf\.android\build-cache\6110b57e13630f3576e6f359da1e499c7e3a4b35\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e18318972aa6209b2eb19f31203116ac75949147\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Patapignouf\.android\build-cache\6110b57e13630f3576e6f359da1e499c7e3a4b35\output\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_771c97c0ca7a842e152eb849638618bf86515dd4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Patapignouf\.android\build-cache\e567c02e6e7e669865de6b01c504206769439617\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b314e8e3835cbb0ee5525aa9edca89ed3cf794b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ef3fb0fc1796a2806a958ccbf4efb657a7c38b7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Patapignouf\.android\build-cache\e567c02e6e7e669865de6b01c504206769439617\output\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_8b5a43487dbf830c6e7011a61ee5897c8d17289c\classes.dex" />
     </item>
 
 </items>
