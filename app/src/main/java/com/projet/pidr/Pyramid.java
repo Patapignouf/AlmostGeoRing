@@ -24,6 +24,10 @@ public class Pyramid {
     private FloatBuffer colorBuffer;   // Buffer for color-array
     private ByteBuffer indexBuffer;    // Buffer for index-array
     private int numFaces = 9;
+    private float colorsurface1 = ((float) (Math.random()*1));
+    private float colorsurface2 = ((float) (Math.random()*1));
+    private float colorsurface3 = ((float) (Math.random()*1));
+    private float colorsurface4 = ((float) (Math.random()*1));
 
     private float[] vertices = {  // Vertices of the 6 faces
             // FRONT
@@ -76,11 +80,19 @@ public class Pyramid {
     };
 
     private float[] colors = {  // Colors of the 5 vertices in RGBA
+            /*
             0.0f, 0.0f, 1.0f, 1.0f,  // 0. blue
             0.0f, 1.0f, 0.0f, 1.0f,  // 1. green
             0.0f, 0.0f, 1.0f, 1.0f,  // 2. blue
             0.0f, 1.0f, 0.0f, 1.0f,  // 3. green
             1.0f, 0.0f, 0.0f, 1.0f   // 4. red
+            */
+
+            0.0f, 0.0f, 1.0f, 1.0f,  // 0. blue
+            0.0f, 0.0f, 1.0f, 1.0f,  // 0. blue
+            0.0f, 0.0f, 1.0f, 1.0f,  // 0. blue
+            0.0f, 0.0f, 1.0f, 1.0f,  // 0. blue
+            0.0f, 0.0f, 1.0f, 1.0f,  // 0. blue
     };
 
     private byte[] indices = { // Vertex indices of the 4 Triangles
@@ -122,9 +134,9 @@ public class Pyramid {
         // Enable arrays and define their buffers
         gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
         gl.glVertexPointer(3, GL10.GL_FLOAT, 0, vertexBuffer);
-        gl.glEnableClientState(GL10.GL_COLOR_ARRAY);
+        //gl.glEnableClientState(GL10.GL_COLOR_ARRAY);
         gl.glColorPointer(4, GL10.GL_FLOAT, 0, colorBuffer);
-
+        gl.glColor4f( colorsurface1, colorsurface2, colorsurface3, colorsurface4);
         //gl.glDrawElements(GL10.GL_TRIANGLES, indices.length, GL10.GL_UNSIGNED_BYTE,indexBuffer);
 
         for (int face = 0; face < numFaces; face++) {
