@@ -10,8 +10,11 @@ import static android.media.CamcorderProfile.get;
 
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 
 import com.github.mikephil.charting.charts.Chart;
 import com.github.mikephil.charting.charts.LineChart;
@@ -100,6 +103,19 @@ public class Variogram extends Activity{
         LineChart chart = (LineChart) findViewById(R.id.chart);
         ArrayList<Float> L = variogram_total_calcul(V, dist);
         ArrayList<Integer> H = new ArrayList<Integer>();
+        Button buttonback4 = (Button) findViewById(R.id.buttonback4);
+        buttonback4.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View view) {
+
+                Intent intent = new Intent(Variogram.this, MainPrise.class);
+                intent.putExtra("Folder" , MainPrise.getProjetName());
+                startActivity(intent);
+            }
+        });
+
+
         for (int i = 0; i<L.size(); i++) {
             H.add(i);
         }
