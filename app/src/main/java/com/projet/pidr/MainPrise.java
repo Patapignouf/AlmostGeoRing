@@ -48,6 +48,7 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 	View view;
 	Button add;
 	Button delete;
+	Button Bvariogram;
 	Button TDButton;
 	Button buttonback3;
 	ImageButton buttondate;
@@ -86,7 +87,19 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 			}
 		});
 
-       	buttonback3 = (Button) findViewById(R.id.buttonback3);
+		Bvariogram = (Button) findViewById(R.id.Bvariogram);
+		Log.d("-------------------",TDButton.toString());
+
+		Bvariogram.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(MainPrise.this, variogram.class);
+				startActivity(intent);
+			}
+		});
+
+
+		buttonback3 = (Button) findViewById(R.id.buttonback3);
 		buttonback3.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {

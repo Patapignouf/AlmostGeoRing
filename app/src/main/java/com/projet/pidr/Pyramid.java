@@ -28,6 +28,12 @@ public class Pyramid {
     private float colorsurface2 = ((float) (Math.random()*1));
     private float colorsurface3 = ((float) (Math.random()*1));
     private float colorsurface4 = ((float) (Math.random()*1));
+    private float[] coloration = new float[4];
+    ByteBuffer vbb = ByteBuffer.allocateDirect(coloration.length * 4);
+
+    FloatBuffer fb = vbb.asFloatBuffer();  // create a floating point buffer from the ByteBuffer
+
+
 
 
 
@@ -90,6 +96,16 @@ public class Pyramid {
     public void draw(GL10 gl) {
         gl.glFrontFace(GL10.GL_CCW);  // Front face in counter-clockwise orientation
 
+
+        gl.glEnable(GL10.GL_LIGHT0);
+        gl.glEnable(GL10.GL_TEXTURE_2D); //Enable Texture Mapping ( NEW )
+        gl.glShadeModel(GL10.GL_SMOOTH); //Enable Smooth Shading
+
+
+
+
+        gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_EMISSION, fb) ;
+        gl.glEnable(GL10.GL_COLOR_MATERIAL);
         // Enable arrays and define their buffers
         gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
         gl.glVertexPointer(3, GL10.GL_FLOAT, 0, vertexBuffer);
@@ -98,6 +114,19 @@ public class Pyramid {
         gl.glColor4f( colorsurface1, colorsurface2, colorsurface3, colorsurface4);
         //gl.glDrawElements(GL10.GL_TRIANGLES, indices.length, GL10.GL_UNSIGNED_BYTE,indexBuffer);
 
+
+
+
+
+
+
+
+        /*
+        gl.glHint(GL10.GL_PERSPECTIVE_CORRECTION_HINT, GL10.GL_FASTEST);
+        gl.glShadeModel(GL10.GL_FLAT);
+        gl.glDisable(GL10.GL_DITHER);
+        gl.glDisable(GL10.GL_LIGHTING);
+        */
         for (int face = 0; face < numFaces; face++) {
             // Set the color for each of the faces
 
