@@ -1,7 +1,7 @@
-#Mon May 15 17:18:30 CEST 2017
-base.0=C\:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_33c70a40993eca76e17777d2ce72b66397053d4f
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ef3fb0fc1796a2806a958ccbf4efb657a7c38b7f\\classes.dex
-base.1=C\:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ef3fb0fc1796a2806a958ccbf4efb657a7c38b7f
-file.0=C\:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_33c70a40993eca76e17777d2ce72b66397053d4f\\classes.dex
+#Mon May 15 18:28:24 CEST 2017
+base.0=C\:\\Users\\Paul\\Documents\\ENSG\\Cours\\Semestre 8\\Projet Laboratoire\\AlmostGeoRing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d4635ff782abe7ab20c42df0092d2d73be26fb61
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Paul\\Documents\\ENSG\\Cours\\Semestre 8\\Projet Laboratoire\\AlmostGeoRing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fd504d58e7279d88fb5edf3e59f081fdcb8027a8\\classes.dex
+base.1=C\:\\Users\\Paul\\Documents\\ENSG\\Cours\\Semestre 8\\Projet Laboratoire\\AlmostGeoRing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fd504d58e7279d88fb5edf3e59f081fdcb8027a8
+file.0=C\:\\Users\\Paul\\Documents\\ENSG\\Cours\\Semestre 8\\Projet Laboratoire\\AlmostGeoRing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d4635ff782abe7ab20c42df0092d2d73be26fb61\\classes.dex

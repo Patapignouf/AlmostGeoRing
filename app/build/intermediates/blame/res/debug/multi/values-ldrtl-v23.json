@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Patapignouf\\Documents\\GitHub\\AlmostGeoRing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldrtl-v23\\values-ldrtl-v23.xml",
+        "outputFile": "C:\\Users\\Paul\\Documents\\ENSG\\Cours\\Semestre 8\\Projet Laboratoire\\AlmostGeoRing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldrtl-v23\\values-ldrtl-v23.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 163
                 },
                 "from": {
-                    "file": "C:\\Users\\Patapignouf\\.android\\build-cache\\969a2aced94ac31a34211cff501c24eb4b95ca0d\\output\\res\\values-ldrtl-v23\\values-ldrtl-v23.xml",
+                    "file": "C:\\Users\\Paul\\.android\\build-cache\\cea9dd664321a40874cb499c3f2c530a01f235ca\\output\\res\\values-ldrtl-v23\\values-ldrtl-v23.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
