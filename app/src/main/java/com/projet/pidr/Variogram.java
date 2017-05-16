@@ -10,6 +10,9 @@ import static android.media.CamcorderProfile.get;
 
 
 import android.app.Activity;
+import android.os.Bundle;
+import android.util.Log;
+
 import com.github.mikephil.charting.charts.Chart;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.data.Entry;
@@ -22,8 +25,9 @@ import com.github.mikephil.charting.data.LineDataSet;
 
 public class Variogram extends Activity{
 
-    ArrayList<Integer> V;
-    int dist;
+    ArrayList<Integer> V = new ArrayList<Integer>();
+
+    int dist = 0;
 
     public float mean(ArrayList<Integer> L) {
         float moy = 0;
@@ -47,7 +51,7 @@ public class Variogram extends Activity{
         int N = V.size() - (h / dist - 1);
         int step = h / dist;
         float gamma = 0;
-        for (int i = 0; i < N - 1; i++) {
+        for (int i = 1; i < N - 1; i++) {
             gamma += 1. / (2. * N) * Math.pow(V.get(i) - V.get(i - 1), 2);
         }
         return gamma;
@@ -71,18 +75,38 @@ public class Variogram extends Activity{
         return port;
     }
 
-    public void affiche(ArrayList<Integer> V, int dist){
-
+    public void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+        V.add(0);
+        V.add(1);
+        V.add(2);
+        V.add(3);
+        V.add(4);
+        V.add(4);
+        V.add(4);
+        V.add(4);
+        V.add(4);
+        V.add(4);
+        V.add(4);
+        V.add(4);
+        V.add(4);
+        V.add(4);
+        V.add(4);
+        V.add(4);
+        V.add(4);
+        dist=1;
+        Log.d("+++++++++++++++++++++","");
+        setContentView(R.layout.activity_variogram);
         LineChart chart = (LineChart) findViewById(R.id.chart);
         ArrayList<Float> L = variogram_total_calcul(V, dist);
-        ArrayList<Integer> H = null;
+        ArrayList<Integer> H = new ArrayList<Integer>();
         for (int i = 0; i<L.size(); i++) {
             H.add(i);
         }
 
         List<Entry> entries = new ArrayList<Entry>();
         for (int i : H){
-            entries.add(new Entry(L.get(i), i));
+            entries.add(new Entry(i,L.get(i)));
         }
 
         LineDataSet dataSet = new LineDataSet(entries, "Experimental Data");
