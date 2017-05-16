@@ -27,6 +27,8 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     private Pyramid[] pyramid;    // (NEW)
     private Pyramid pyramid2;
     private Pyramid pyramid3;
+
+    private Pyramid[] pyramid4= new Pyramid[9];
     //private Cube cube;          // (NEW)
 
     private static float anglePyramid = 0; // Rotational angle in degree for pyramid (NEW)
@@ -137,6 +139,55 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
             3.0f, 1.5f,  1.0f,  //
     };
 
+    private float[][] vertices3 = {{  // Vertices of the 6 faces
+            // FRONT
+            2.0f, -1.0f,  1.0f,  // 0. left-bottom-front    D/H/P
+            4.0f, -1.0f,  1.0f,  // 1. right-bottom-front
+            2.0f,  1.0f,  1.0f,  // 2. left-top-front
+            4.0f,  1.0f,  1.0f },{  // 3. right-top-front
+            // BACK
+            4.0f, -1.0f, -1.0f,  // 6. right-bottom-back
+            2.0f, -1.0f, -1.0f,  // 4. left-bottom-back
+            4.0f,  1.0f, -1.0f,  // 7. right-top-back
+            2.0f,  1.0f, -1.0f},{  // 5. left-top-back
+            // LEFT
+            2.0f, -1.0f, -1.0f,  // 4. left-bottom-back
+            2.0f, -1.0f,  1.0f,  // 0. left-bottom-front
+            2.0f,  1.0f, -1.0f,  // 5. left-top-back
+            2.0f,  1.0f,  1.0f},{  // 2. left-top-front
+            // RIGHT
+            4.0f, -1.0f,  1.0f,  // 1. right-bottom-front
+            4.0f, -1.0f, -1.0f,  // 6. right-bottom-back
+            4.0f,  1.0f,  1.0f,  // 3. right-top-front
+            4.0f,  1.0f, -1.0f},{  // 7. right-top-back
+            // TOP
+            2.0f,  1.0f,  1.0f,  // 2. left-top-front
+            4.0f,  1.0f,  1.0f,  // 3. right-top-front
+            2.0f,  1.0f, -1.0f,  // 5. left-top-back
+            4.0f,  1.0f, -1.0f},{  // 7. right-top-back
+            // BOTTOM
+            2.0f, -1.0f, -1.0f,  // 4. left-bottom-back
+            4.0f, -1.0f, -1.0f,  // 6. right-bottom-back
+            2.0f, -1.0f,  1.0f,  // 0. left-bottom-front
+            4.0f, -1.0f,  1.0f},{   // 1. right-bottom-front
+
+            4.0f, 1.0f, 1.0f,  // D/H/P
+            3.0f, 1.5f, 1.0f,  //
+            4.0f, 1.0f, -1.0f,  //
+            3.0f, 1.5f, -1.0f},{   //
+
+
+            2.0f, 1.0f, 1.0f,  //
+            3.0f, 1.5f, 1.0f,  //
+            2.0f, 1.0f, -1.0f,  //
+            3.0f, 1.5f, -1.0f},{   //
+
+            4.0f, 1.0f, 1.0f,  //
+            2.0f, 1.0f, 1.0f,  //
+            3.0f, 1.5f,  1.0f,  //
+            3.0f, 1.5f,  1.0f}  //
+    };
+
 
     public ArrayList<Point3D> PPP(ArrayList<Point3D> listPoints, float rayon) {
         //Fonction permettant de réaliser les triangles OpenGL à partir du maillage.
@@ -229,7 +280,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         pyramid = new Pyramid[listePoints.size()];
         float[] tampon;
         for (int i = 0; i<listePoints.size(); i++) {
-            pyramid[i] = new Pyramid(ConvertToArray(PPP(listePoints.get(i), rayon)), ConvertToArray(PPP(listePoints.get(i), rayon)).length / 12);   // (NEW)
+            //pyramid[i] = new Pyramid(ConvertToArray(PPP(listePoints.get(i), rayon)), ConvertToArray(PPP(listePoints.get(i), rayon)).length / 12);   // (NEW)
         }
 
         //pyramid2 = new Pyramid(vertices2, 9);
@@ -238,8 +289,17 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     public MyGLRenderer(Context context) {
         // Set up the buffers for these shapes
 
-        pyramid2 = new Pyramid(vertices, 9);
-        pyramid3 = new Pyramid(vertices2, 9);
+        //pyramid2 = new Pyramid(vertices, 9);
+        //pyramid3 = new Pyramid(vertices2, 9);
+        float colorsurface1 = ((float) (Math.random()*1));
+        float colorsurface2 = ((float) (Math.random()*1));
+        float colorsurface3 = ((float) (Math.random()*1));
+        float colorsurface4 = ((float) (Math.random()*1));
+
+        for (int i = 0; i<pyramid4.length; i++) {
+            pyramid4[i] = new Pyramid(vertices3[i],colorsurface1,colorsurface2,colorsurface3, 1);   // (NEW)
+        }
+
         //cube = new Cube();         // (NEW)
     }
 
@@ -299,9 +359,16 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
             //On affiche toutes les surfaces
         }
         */
+        for (int i = 0; i < pyramid4.length; i++){
+            pyramid4[i].draw(gl);
+            //On affiche toutes les surfaces
+        }
+
+
+        /*
         pyramid2.draw(gl);
         pyramid3.draw(gl);
-                                // Draw the pyramid (NEW)
+        */                        // Draw the pyramid (NEW)
         //pyramid2.draw(gl);
         // ----- Render the Color Cube -----
                  // Draw the cube (NEW)
