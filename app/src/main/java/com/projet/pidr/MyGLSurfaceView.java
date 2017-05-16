@@ -45,7 +45,8 @@ public class MyGLSurfaceView extends GLSurfaceView {
         //On récupère ici les données de la BDD
 
         super(context);
-        renderer = new MyGLRenderer(context,listePoints,rayon);
+        renderer = new MyGLRenderer(context);
+        //renderer = new MyGLRenderer(context,listePoints,rayon);
         this.setRenderer(renderer);
         // Request focus, otherwise key/button won't react
         this.requestFocus();

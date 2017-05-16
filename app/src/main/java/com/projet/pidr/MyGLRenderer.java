@@ -234,6 +234,14 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         //pyramid2 = new Pyramid(vertices2, 9);
         //cube = new Cube();         // (NEW)
     }
+    public MyGLRenderer(Context context) {
+        // Set up the buffers for these shapes
+
+        pyramid2 = new Pyramid(vertices, 9);
+        //cube = new Cube();         // (NEW)
+    }
+
+
 
     // Call back when the surface is first created or re-created.
     @Override
@@ -282,10 +290,15 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         gl.glTranslatef(0.0f, 0.0f, z); // Translate left and into the screen
         gl.glRotatef(angleX, 1.0f, 0.0f, 0.0f); // Rotate (NEW)
         gl.glRotatef(angleY, 0.0f, 1.0f, 0.0f); // Rotate (NEW)
+
+        /*
         for (int i = 0; i < pyramid.length; i++){
             pyramid[i].draw(gl);
             //On affiche toutes les surfaces
         }
+        */
+        pyramid2.draw(gl);
+
                                 // Draw the pyramid (NEW)
         //pyramid2.draw(gl);
         // ----- Render the Color Cube -----
