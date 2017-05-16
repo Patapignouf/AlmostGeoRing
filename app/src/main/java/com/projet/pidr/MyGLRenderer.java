@@ -26,6 +26,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
 
     private Pyramid[] pyramid;    // (NEW)
     private Pyramid pyramid2;
+    private Pyramid pyramid3;
     //private Cube cube;          // (NEW)
 
     private static float anglePyramid = 0; // Rotational angle in degree for pyramid (NEW)
@@ -238,6 +239,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         // Set up the buffers for these shapes
 
         pyramid2 = new Pyramid(vertices, 9);
+        pyramid3 = new Pyramid(vertices2, 9);
         //cube = new Cube();         // (NEW)
     }
 
@@ -298,7 +300,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         }
         */
         pyramid2.draw(gl);
-
+        pyramid3.draw(gl);
                                 // Draw the pyramid (NEW)
         //pyramid2.draw(gl);
         // ----- Render the Color Cube -----

@@ -56,13 +56,22 @@ public class Pyramid {
             0.0f, 0.0f, 1.0f, 1.0f,  // 0. blue
             0.0f, 0.0f, 1.0f, 1.0f,  // 0. blue
             0.0f, 0.0f, 1.0f, 1.0f,  // 0. blue
+            0.0f, 0.0f, 1.0f, 1.0f,  // 0. blue
+            0.0f, 0.0f, 1.0f, 1.0f,  // 0. blue
+            0.0f, 0.0f, 1.0f, 1.0f,  // 0. blue
+            0.0f, 0.0f, 1.0f, 1.0f,  // 0. blue
     };
 
     private byte[] indices = { // Vertex indices of the 4 Triangles
             2, 2, 2, 2,   // front face (CCW)
+            /*
             1, 4, 2, 1,  // right face
             0, 4, 1, 3,  // back face
             4, 0, 3, 4,   // left face
+            */
+            2, 2, 2, 2,
+            2, 2, 2, 2,
+            2, 2, 2, 2,
             2, 2, 2, 2,
             2, 2, 2, 2,
             2, 2, 2, 2
@@ -96,12 +105,12 @@ public class Pyramid {
     public void draw(GL10 gl) {
         gl.glFrontFace(GL10.GL_CCW);  // Front face in counter-clockwise orientation
 
-
+        /*
         gl.glEnable(GL10.GL_LIGHT0);
         gl.glEnable(GL10.GL_TEXTURE_2D); //Enable Texture Mapping ( NEW )
         gl.glShadeModel(GL10.GL_SMOOTH); //Enable Smooth Shading
 
-
+        */
 
 
         gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_EMISSION, fb) ;
@@ -109,17 +118,10 @@ public class Pyramid {
         // Enable arrays and define their buffers
         gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
         gl.glVertexPointer(3, GL10.GL_FLOAT, 0, vertexBuffer);
-        //gl.glEnableClientState(GL10.GL_COLOR_ARRAY);
+        gl.glEnableClientState(GL10.GL_COLOR_ARRAY);
         gl.glColorPointer(4, GL10.GL_FLOAT, 0, colorBuffer);
         gl.glColor4f( colorsurface1, colorsurface2, colorsurface3, colorsurface4);
-        //gl.glDrawElements(GL10.GL_TRIANGLES, indices.length, GL10.GL_UNSIGNED_BYTE,indexBuffer);
-
-
-
-
-
-
-
+        gl.glDrawElements(GL10.GL_TRIANGLES, indices.length, GL10.GL_UNSIGNED_BYTE,indexBuffer);
 
         /*
         gl.glHint(GL10.GL_PERSPECTIVE_CORRECTION_HINT, GL10.GL_FASTEST);
