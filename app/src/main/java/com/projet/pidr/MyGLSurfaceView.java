@@ -18,6 +18,9 @@ import android.content.Context;
 import android.opengl.GLSurfaceView;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
+
+import java.util.ArrayList;
+
 /*
  * Custom GL view by extending GLSurfaceView so as
  * to override event handlers such as onKeyUp(), onTouchEvent()
@@ -30,10 +33,19 @@ public class MyGLSurfaceView extends GLSurfaceView {
     private float previousX;
     private float previousY;
 
+    //On va récupérer ici les points de la BDD et si possible le rayon ^^
+
+    ArrayList<ArrayList<Point3D>> listePoints ;
+    float rayon;
+
+
+
     // Constructor - Allocate and set the renderer
     public MyGLSurfaceView(Context context) {
+        //On récupère ici les données de la BDD
+
         super(context);
-        renderer = new MyGLRenderer(context);
+        renderer = new MyGLRenderer(context,listePoints,rayon);
         this.setRenderer(renderer);
         // Request focus, otherwise key/button won't react
         this.requestFocus();

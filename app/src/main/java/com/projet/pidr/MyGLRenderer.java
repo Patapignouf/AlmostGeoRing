@@ -24,7 +24,7 @@ import java.util.ArrayList;
 
 public class MyGLRenderer implements GLSurfaceView.Renderer {
 
-    private Pyramid pyramid;    // (NEW)
+    private Pyramid[] pyramid;    // (NEW)
     private Pyramid pyramid2;
     //private Cube cube;          // (NEW)
 
@@ -137,71 +137,101 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     };
 
 
-    public ArrayList<Point3D> PPP(ArrayList<Point3D> listPoints, float rayon){
-        //Fonction à revoir pour s'adapter à la nouvelle méthode de résoltion du problème
+    public ArrayList<Point3D> PPP(ArrayList<Point3D> listPoints, float rayon) {
+        //Fonction permettant de réaliser les triangles OpenGL à partir du maillage.
+        //On initialise les variables utiles
         ArrayList<Point3D> result = new ArrayList<Point3D>();
 
-        float x = interestPoint.x;
-        float y = interestPoint.y;
-        float z = interestPoint.z;
-        Point3D currentPoint2 = listPoints.get(0);
-        float x2 = currentPoint2.x;
-        float y2 = currentPoint2.y;
-        float z2 = currentPoint2.z;
-        float distance2=(float) Math.sqrt(Math.pow(x-x2,2)+Math.pow(y-y2,2)+Math.pow(z-z2,2));
-        Point3D currentPoint3 = listPoints.get(1);
-        float x3 = currentPoint3.x;
-        float y3 = currentPoint3.y;
-        float z3 = currentPoint3.z;
-        float distance3=(float) Math.sqrt(Math.pow(x-x3,2)+Math.pow(y-y3,2)+Math.pow(z-z3,2));
-
-        Point3D currentPointT;
-        float xT ;
-        float yT ;
-        float zT ;
         float distanceT;
+        int marqueur =0;
+        Point3D currentPointT;
+        float x;
+        float y;
+        float z;
+        Point3D currentPoint2 ;
+        float x2 ;
+        float y2 ;
+        float z2 ;
 
-        for (int i=0 ; i<=listPoints.size()-1; i++){
-            currentPointT = listPoints.get(i);
-            xT=currentPointT.x;
-            yT=currentPointT.y;
-            zT=currentPointT.z;
-            distanceT = (float) Math.sqrt(Math.pow(x-xT,2)+Math.pow(y-yT,2)+Math.pow(z-zT,2));
-            if ((distanceT<distance2)&&(distanceT>0)){
-                distance2=distanceT;
-                currentPoint2=currentPointT;
+        Point3D currentPoint3 = listPoints.get(0) ;
+        float x3 ;
+        float y3 ;
+        float z3 ;
 
-            } else if  ((distanceT<distance3)&&(distanceT>0)) {
-                distance3=distanceT;
-                currentPoint3=currentPointT;
+        for (int j = 0; j <= listPoints.size() - 1; j++) {
+            //On va réaliser une première boucle pour traiter tous les points.
+            currentPointT = listPoints.get(j);
+            x = listPoints.get(j).x;
+            y = listPoints.get(j).x;
+            z = listPoints.get(j).x;
+
+            for (int i = 0; i <= listPoints.size() - 1; i++) {
+                //Pour chaque points on va chercher les points qui se situent dans le rayon du maillage.
+                currentPoint2 = listPoints.get(i);
+                x2 = currentPoint2.x;
+                y2 = currentPoint2.y;
+                z2 = currentPoint2.z;
+                distanceT = (float) Math.sqrt(Math.pow(x - x2, 2) + Math.pow(y - y2, 2) + Math.pow(z - z2, 2));
+                if ((distanceT < rayon) && (distanceT > 0)) {
+                //On va réinitialiser le marqueur
+                marqueur = 0;
+
+                    for (int k = i; k <= listPoints.size() - 1; k++){
+                        //On cherche un troisième point dans ce rayon pour tracer un triangle
+                        currentPoint3 = listPoints.get(k);
+                        x3 = currentPoint3.x;
+                        y3 = currentPoint3.y;
+                        z3 = currentPoint3.z;
+                        distanceT = (float) Math.sqrt(Math.pow(x - x3, 2) + Math.pow(y - y3, 2) + Math.pow(z - z3, 2));
+                        if ((distanceT < rayon) && (distanceT > 0)) {
+                            marqueur = 1;
+                            //Si le marqueur vaut 1 -> On a nos trois points
+                        }
+                    }
+
+                    if (marqueur!=0){
+                        //On obtient simplement notre triangle uniquement si on a les deux précédents points
+                        result.add(currentPointT);
+                        result.add(currentPoint2);
+                        result.add(currentPoint3);
+                        result.add(currentPoint3);
+                    }
+
+                }
             }
 
+
         }
-        result.add(currentPoint2);
-        result.add(currentPoint3);
-        result.add(currentPoint3);
         return result;
     }
 
 
     public float[] ConvertToArray(ArrayList<Point3D> listPoints){
         float[] result = new float[listPoints.size()*3];
+        //On va créer un tableau de float de trois fois la taille du tableau de points pour y mettre chaque coordonnée
 
         for (int i=0; i<result.length; i++){
             result[i]=listPoints.get(i).x;
             result[i+1]=listPoints.get(i).y;
             result[i+2]=listPoints.get(i).z;
             i=i+3;
+
+            //Chaque point est divisé de la sorte -> x,y,z pour pouvoir être tracé par OpenGL
         }
         return result;
     }
 
 
     // Constructor
-    public MyGLRenderer(Context context) {
+    public MyGLRenderer(Context context, ArrayList<ArrayList<Point3D>> listePoints, float rayon) {
         // Set up the buffers for these shapes
-        pyramid = new Pyramid(vertices, 9);   // (NEW)
-        pyramid2 = new Pyramid(vertices2, 9);
+        pyramid = new Pyramid[listePoints.size()];
+        float[] tampon;
+        for (int i = 0; i<listePoints.size(); i++) {
+            pyramid[i] = new Pyramid(ConvertToArray(PPP(listePoints.get(i), rayon)), ConvertToArray(PPP(listePoints.get(i), rayon)).length / 12);   // (NEW)
+        }
+
+        //pyramid2 = new Pyramid(vertices2, 9);
         //cube = new Cube();         // (NEW)
     }
 
@@ -252,8 +282,12 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         gl.glTranslatef(0.0f, 0.0f, z); // Translate left and into the screen
         gl.glRotatef(angleX, 1.0f, 0.0f, 0.0f); // Rotate (NEW)
         gl.glRotatef(angleY, 0.0f, 1.0f, 0.0f); // Rotate (NEW)
-        pyramid.draw(gl);                              // Draw the pyramid (NEW)
-        pyramid2.draw(gl);
+        for (int i = 0; i < pyramid.length; i++){
+            pyramid[i].draw(gl);
+            //On affiche toutes les surfaces
+        }
+                                // Draw the pyramid (NEW)
+        //pyramid2.draw(gl);
         // ----- Render the Color Cube -----
                  // Draw the cube (NEW)
 
