@@ -93,7 +93,7 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 		Bvariogram.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				Intent intent = new Intent(MainPrise.this, variogram.class);
+				Intent intent = new Intent(MainPrise.this, Variogram.class);
 				startActivity(intent);
 			}
 		});

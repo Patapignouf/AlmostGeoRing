@@ -79,6 +79,7 @@ public class Variogram extends Activity{
         for (int i = 0; i<L.size(); i++) {
             H.add(i);
         }
+
         List<Entry> entries = new ArrayList<Entry>();
         for (int i : H){
             entries.add(new Entry(L.get(i), i));
