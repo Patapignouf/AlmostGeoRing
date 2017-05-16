@@ -1,329 +1,329 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:2:1-111:12
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:2:1-111:12
 	package
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:3:5-30
-		INJECTED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\Patapignouf\.android\build-cache\3339af68cbd5848d0d6b584c3f58572ece1c7c6a\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Patapignouf\.android\build-cache\cd6fb71474b03eacccf58f802944f331deef8f26\output\AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Patapignouf\.android\build-cache\070a46015f1e9e256e9f38c8b377c5b00eb2cd19\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Patapignouf\.android\build-cache\3bab21574b84745bfb2dfc3dc45682e317222add\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Patapignouf\.android\build-cache\ac1532fce0505cff2adc798af02f95f9b3c8ffe8\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\Patapignouf\.android\build-cache\13a7aa7ed6faff6e153e95342089fdd82bd5064e\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Patapignouf\.android\build-cache\c83784fe303c9e8283dfe2b8db253a7c3db7c580\output\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\Patapignouf\.android\build-cache\9a88178abdbede40f52e58634aeb6ec94cc46322\output\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\Patapignouf\.android\build-cache\e567c02e6e7e669865de6b01c504206769439617\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Patapignouf\.android\build-cache\969a2aced94ac31a34211cff501c24eb4b95ca0d\output\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\Patapignouf\.android\build-cache\f3dd055994b3b7711ac3782f91e3c80e33d1ac9c\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\Patapignouf\.android\build-cache\9eb66c0dc9da23980ae8216b6e02c313d884603d\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\Patapignouf\.android\build-cache\2d31fc9e40acb50c097144caf7cfe577bd66a658\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Patapignouf\.android\build-cache\51dd16286a2dbcc3599f453734a8c94018ddda36\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\Patapignouf\.android\build-cache\b1528a2c7d2d3f2fed88b9ca01f8ff9cf1384084\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Patapignouf\.android\build-cache\7e0e3498f6b4c1e0bc290dd10c4dcb0b731067bf\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-panorama:8.4.0] C:\Users\Patapignouf\.android\build-cache\ea85ed776a409aebfefd3f6bdab8a1bdb356a75d\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\Patapignouf\.android\build-cache\85aaa25d8e92df0c614dfbb8dde90ecd3d8294da\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] C:\Users\Patapignouf\.android\build-cache\3e4efcf8b37d3677e20b13f06a0813249fbf0420\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-vision:8.4.0] C:\Users\Patapignouf\.android\build-cache\e65adce2d4be81a0e04bb19b65b84dadfef3ee2b\output\AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-wallet:8.4.0] C:\Users\Patapignouf\.android\build-cache\5ee834f53a2516ba6a7547eefa71fa9831a9ebbc\output\AndroidManifest.xml:19:5-42
-MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\Patapignouf\.android\build-cache\edc70c7cbe8361c3848adb40ad91c5a5529b07cd\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Patapignouf\.android\build-cache\bb2dbedbaafe011a62b4b2510f56bdc671064c62\output\AndroidManifest.xml:26:5-42
-MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\Patapignouf\.android\build-cache\b887ba4d5f8e5cd268331d8fecdf3bb3df11bdf8\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Patapignouf\.android\build-cache\cbc1ae1f1b1669c4921aabbb5dede905bac98efd\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Patapignouf\.android\build-cache\e9b44d8e285bbe4c2bc3770cec871d527b4d55fd\output\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Patapignouf\.android\build-cache\6110b57e13630f3576e6f359da1e499c7e3a4b35\output\AndroidManifest.xml:20:5-43
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\Paul\.android\build-cache\dc7a1cee1ba0563393d44e2a3679a5df80248d61\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Paul\.android\build-cache\3701d15cab3c5d6be6f7a6451550fcd6a264f55c\output\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Paul\.android\build-cache\e4d7286b18a089dffb19f4d267e88d17c1d710ec\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Paul\.android\build-cache\7e2a8754f00c8de286fa1da434f09a49ecfc07a3\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Paul\.android\build-cache\962cd09bb370753812a524a8a001c34aa29a082d\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\Paul\.android\build-cache\3bdf11dbb29a37b353c91f1690d174d2414b7f64\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Paul\.android\build-cache\b66ba82bb16e4586e4849708059d2ec08d79ce48\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\Paul\.android\build-cache\c212f735ea8993312f79974594009891ee99439c\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\Paul\.android\build-cache\a337c47914d93cb29aabebac05b639a22119196c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Paul\.android\build-cache\cea9dd664321a40874cb499c3f2c530a01f235ca\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\Paul\.android\build-cache\d9e86a856a54c1041bd1d11c888fe8df4e77cfcf\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\Paul\.android\build-cache\2ccae28af54dc4613b9aa9a6cae6a2de6c0b5beb\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\Paul\.android\build-cache\f99c62a925c59b942758918bb94e7b10f6d1b837\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Paul\.android\build-cache\ec1916c7331d782f1b674b78b1e3e08a51d4dbdc\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\Paul\.android\build-cache\50023d499698f7f483498d5af0e604c4bcacdf41\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Paul\.android\build-cache\12b6f80f8d1243dd76c987e444ccaf307198cb56\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] C:\Users\Paul\.android\build-cache\71cbb8793f3f7f4d9512576be78e0f4edb123ea9\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\Paul\.android\build-cache\fef248a372ca8d4c9c2a08cd9e30eec7c9bf0ed7\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] C:\Users\Paul\.android\build-cache\56c5230441fdeef4d245b3cb55d7203575bc2696\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] C:\Users\Paul\.android\build-cache\f68eeb07c26aa7ea26764a6527fb60c502df71bf\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-wallet:8.4.0] C:\Users\Paul\.android\build-cache\a76eb26d973ffddb92b67c153decb6dbb8ab93af\output\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\Paul\.android\build-cache\178228f3d5f5933174be649c7c9466b76ad2aadc\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Paul\.android\build-cache\0f7e9353121859addb0b84af2e17938fe1c0a4bc\output\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\Paul\.android\build-cache\67ced3b8ace0b1833f4f7b2926e269489cbe4968\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Paul\.android\build-cache\ddc8700ac96147b2cc9ad8920400768074c50112\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Paul\.android\build-cache\499489d4f1a2b42f8b3360e12dba8a2e55f8b8b7\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Paul\.android\build-cache\67f1bde1962ecc69a107e48b61cddcffda26f6f1\output\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:11:5-79
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:11:22-76
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:11:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:12:5-81
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:12:22-78
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:12:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:13:5-80
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:13:5-80
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:13:22-77
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:13:22-77
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:14:5-71
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:14:5-71
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:14:22-68
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:14:22-68
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:16:5-80
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:16:5-80
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:16:22-78
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:16:22-78
 uses-feature#0x00020000
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:17:5-19:35
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Patapignouf\.android\build-cache\bb2dbedbaafe011a62b4b2510f56bdc671064c62\output\AndroidManifest.xml:22:5-24:33
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:17:5-19:35
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Paul\.android\build-cache\0f7e9353121859addb0b84af2e17938fe1c0a4bc\output\AndroidManifest.xml:22:5-24:33
 	android:glEsVersion
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:18:9-41
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:18:9-41
 	android:required
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:19:9-32
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:19:9-32
 supports-gl-texture#GL_OES_compressed_ETC1_RGB8_texture
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:21:5-79
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:21:5-79
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:21:26-76
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:21:26-76
 supports-gl-texture#GL_OES_compressed_paletted_texture
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:22:5-78
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:22:5-78
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:22:26-75
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:22:26-75
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:24:5-75
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:24:5-75
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:24:22-72
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:24:22-72
 application
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:26:5-109:19
-MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\Patapignouf\.android\build-cache\3339af68cbd5848d0d6b584c3f58572ece1c7c6a\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Patapignouf\.android\build-cache\cd6fb71474b03eacccf58f802944f331deef8f26\output\AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Patapignouf\.android\build-cache\070a46015f1e9e256e9f38c8b377c5b00eb2cd19\output\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Patapignouf\.android\build-cache\3bab21574b84745bfb2dfc3dc45682e317222add\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Patapignouf\.android\build-cache\ac1532fce0505cff2adc798af02f95f9b3c8ffe8\output\AndroidManifest.xml:20:5-30:19
-MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\Patapignouf\.android\build-cache\13a7aa7ed6faff6e153e95342089fdd82bd5064e\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Patapignouf\.android\build-cache\c83784fe303c9e8283dfe2b8db253a7c3db7c580\output\AndroidManifest.xml:20:5-32:19
-MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\Patapignouf\.android\build-cache\9a88178abdbede40f52e58634aeb6ec94cc46322\output\AndroidManifest.xml:19:5-20
-MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\Patapignouf\.android\build-cache\e567c02e6e7e669865de6b01c504206769439617\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Patapignouf\.android\build-cache\969a2aced94ac31a34211cff501c24eb4b95ca0d\output\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\Patapignouf\.android\build-cache\f3dd055994b3b7711ac3782f91e3c80e33d1ac9c\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\Patapignouf\.android\build-cache\9eb66c0dc9da23980ae8216b6e02c313d884603d\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\Patapignouf\.android\build-cache\2d31fc9e40acb50c097144caf7cfe577bd66a658\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Patapignouf\.android\build-cache\51dd16286a2dbcc3599f453734a8c94018ddda36\output\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\Patapignouf\.android\build-cache\b1528a2c7d2d3f2fed88b9ca01f8ff9cf1384084\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:26:5-46:19
-MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Patapignouf\.android\build-cache\7e0e3498f6b4c1e0bc290dd10c4dcb0b731067bf\output\AndroidManifest.xml:20:5-20
-MERGED from [com.google.android.gms:play-services-panorama:8.4.0] C:\Users\Patapignouf\.android\build-cache\ea85ed776a409aebfefd3f6bdab8a1bdb356a75d\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\Patapignouf\.android\build-cache\85aaa25d8e92df0c614dfbb8dde90ecd3d8294da\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] C:\Users\Patapignouf\.android\build-cache\3e4efcf8b37d3677e20b13f06a0813249fbf0420\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-vision:8.4.0] C:\Users\Patapignouf\.android\build-cache\e65adce2d4be81a0e04bb19b65b84dadfef3ee2b\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\Patapignouf\.android\build-cache\edc70c7cbe8361c3848adb40ad91c5a5529b07cd\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Patapignouf\.android\build-cache\bb2dbedbaafe011a62b4b2510f56bdc671064c62\output\AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\Patapignouf\.android\build-cache\b887ba4d5f8e5cd268331d8fecdf3bb3df11bdf8\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Patapignouf\.android\build-cache\e9b44d8e285bbe4c2bc3770cec871d527b4d55fd\output\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Patapignouf\.android\build-cache\6110b57e13630f3576e6f359da1e499c7e3a4b35\output\AndroidManifest.xml:22:5-20
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:26:5-109:19
+MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\Paul\.android\build-cache\dc7a1cee1ba0563393d44e2a3679a5df80248d61\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Paul\.android\build-cache\3701d15cab3c5d6be6f7a6451550fcd6a264f55c\output\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Paul\.android\build-cache\e4d7286b18a089dffb19f4d267e88d17c1d710ec\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Paul\.android\build-cache\7e2a8754f00c8de286fa1da434f09a49ecfc07a3\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Paul\.android\build-cache\962cd09bb370753812a524a8a001c34aa29a082d\output\AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\Paul\.android\build-cache\3bdf11dbb29a37b353c91f1690d174d2414b7f64\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Paul\.android\build-cache\b66ba82bb16e4586e4849708059d2ec08d79ce48\output\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\Paul\.android\build-cache\c212f735ea8993312f79974594009891ee99439c\output\AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\Paul\.android\build-cache\a337c47914d93cb29aabebac05b639a22119196c\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Paul\.android\build-cache\cea9dd664321a40874cb499c3f2c530a01f235ca\output\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\Paul\.android\build-cache\d9e86a856a54c1041bd1d11c888fe8df4e77cfcf\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\Paul\.android\build-cache\2ccae28af54dc4613b9aa9a6cae6a2de6c0b5beb\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\Paul\.android\build-cache\f99c62a925c59b942758918bb94e7b10f6d1b837\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Paul\.android\build-cache\ec1916c7331d782f1b674b78b1e3e08a51d4dbdc\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\Paul\.android\build-cache\50023d499698f7f483498d5af0e604c4bcacdf41\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Paul\.android\build-cache\12b6f80f8d1243dd76c987e444ccaf307198cb56\output\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] C:\Users\Paul\.android\build-cache\71cbb8793f3f7f4d9512576be78e0f4edb123ea9\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\Paul\.android\build-cache\fef248a372ca8d4c9c2a08cd9e30eec7c9bf0ed7\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] C:\Users\Paul\.android\build-cache\56c5230441fdeef4d245b3cb55d7203575bc2696\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] C:\Users\Paul\.android\build-cache\f68eeb07c26aa7ea26764a6527fb60c502df71bf\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\Paul\.android\build-cache\178228f3d5f5933174be649c7c9466b76ad2aadc\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Paul\.android\build-cache\0f7e9353121859addb0b84af2e17938fe1c0a4bc\output\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\Paul\.android\build-cache\67ced3b8ace0b1833f4f7b2926e269489cbe4968\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Paul\.android\build-cache\499489d4f1a2b42f8b3360e12dba8a2e55f8b8b7\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Paul\.android\build-cache\67f1bde1962ecc69a107e48b61cddcffda26f6f1\output\AndroidManifest.xml:22:5-20
 	android:screenOrientation
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:30:9-45
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:30:9-45
 	android:label
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:29:9-41
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:29:9-41
 	android:allowBackup
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:27:9-35
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:27:9-35
 	android:icon
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:28:9-45
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:28:9-45
 	android:theme
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:31:9-40
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:31:9-40
 activity#com.projet.pidr.PhotoComponents
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:32:9-39:20
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:32:9-39:20
 	android:screenOrientation
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:35:13-49
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:35:13-49
 	android:label
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:34:13-45
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:34:13-45
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:33:13-44
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:33:13-44
 intent-filter#android.intent.action.MAIN
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:36:13-38:29
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:36:13-38:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:37:17-69
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:37:25-66
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:37:25-66
 activity#com.projet.pidr.RecordAudioActivity
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:40:9-47:20
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:40:9-47:20
 	android:screenOrientation
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:43:13-49
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:43:13-49
 	android:label
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:42:13-45
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:42:13-45
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:41:13-48
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:41:13-48
 activity#com.projet.pidr.NoteComponents
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:48:9-55:20
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:48:9-55:20
 	android:screenOrientation
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:51:13-49
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:51:13-49
 	android:label
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:50:13-45
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:50:13-45
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:49:13-43
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:49:13-43
 activity#com.projet.pidr.RecordingComponents
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:56:9-63:20
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:56:9-63:20
 	android:screenOrientation
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:59:13-49
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:59:13-49
 	android:label
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:58:13-45
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:58:13-45
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:57:13-48
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:57:13-48
 activity#com.projet.pidr.MainPrise
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:64:9-71:20
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:64:9-71:20
 	android:screenOrientation
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:67:13-49
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:67:13-49
 	android:label
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:66:13-45
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:66:13-45
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:65:13-38
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:65:13-38
 activity#com.projet.pidr.FolderComponents
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:72:9-81:20
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:72:9-81:20
 	android:screenOrientation
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:75:13-49
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:75:13-49
 	android:label
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:74:13-45
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:74:13-45
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:73:13-45
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:73:13-45
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:76:13-80:29
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:76:13-80:29
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:79:17-77
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:79:17-77
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:79:27-74
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:79:27-74
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:83:9-85:46
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:83:9-85:46
 	android:value
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:85:13-43
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:85:13-43
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:84:13-58
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:84:13-58
 activity#com.projet.pidr.GeoMapActivity
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:87:9-93:20
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:87:9-93:20
 	android:label
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:89:13-56
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:89:13-56
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:88:13-43
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:88:13-43
 Spinner
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:95:9-98:52
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:95:9-98:52
 	android:layout_width
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:97:13-48
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:97:13-48
 	android:id
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:96:13-38
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:96:13-38
 	android:layout_height
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:98:13-49
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:98:13-49
 activity#com.projet.pidr.OpenGLES20Activity
-ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:100:9-107:20
+ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:100:9-107:20
 	android:screenOrientation
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:103:13-49
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:103:13-49
 	android:label
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:102:13-38
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:102:13-38
 	android:name
-		ADDED from C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\src\main\AndroidManifest.xml:101:13-47
+		ADDED from C:\Users\Paul\Documents\ENSG\Cours\Semestre 8\Projet Laboratoire\AlmostGeoRing\app\src\main\AndroidManifest.xml:101:13-47
 uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Patapignouf\.android\build-cache\cd6fb71474b03eacccf58f802944f331deef8f26\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Patapignouf\.android\build-cache\070a46015f1e9e256e9f38c8b377c5b00eb2cd19\output\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Patapignouf\.android\build-cache\ac1532fce0505cff2adc798af02f95f9b3c8ffe8\output\AndroidManifest.xml:19:5-67
-MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Patapignouf\.android\build-cache\51dd16286a2dbcc3599f453734a8c94018ddda36\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Patapignouf\.android\build-cache\bb2dbedbaafe011a62b4b2510f56bdc671064c62\output\AndroidManifest.xml:21:5-66
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Paul\.android\build-cache\3701d15cab3c5d6be6f7a6451550fcd6a264f55c\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Paul\.android\build-cache\e4d7286b18a089dffb19f4d267e88d17c1d710ec\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Paul\.android\build-cache\962cd09bb370753812a524a8a001c34aa29a082d\output\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Paul\.android\build-cache\ec1916c7331d782f1b674b78b1e3e08a51d4dbdc\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Paul\.android\build-cache\0f7e9353121859addb0b84af2e17938fe1c0a4bc\output\AndroidManifest.xml:21:5-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Patapignouf\.android\build-cache\cd6fb71474b03eacccf58f802944f331deef8f26\output\AndroidManifest.xml:20:22-64
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Paul\.android\build-cache\3701d15cab3c5d6be6f7a6451550fcd6a264f55c\output\AndroidManifest.xml:20:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Patapignouf\.android\build-cache\cd6fb71474b03eacccf58f802944f331deef8f26\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Patapignouf\.android\build-cache\070a46015f1e9e256e9f38c8b377c5b00eb2cd19\output\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Patapignouf\.android\build-cache\7e0e3498f6b4c1e0bc290dd10c4dcb0b731067bf\output\AndroidManifest.xml:19:5-79
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Patapignouf\.android\build-cache\bb2dbedbaafe011a62b4b2510f56bdc671064c62\output\AndroidManifest.xml:20:5-78
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Paul\.android\build-cache\3701d15cab3c5d6be6f7a6451550fcd6a264f55c\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Paul\.android\build-cache\e4d7286b18a089dffb19f4d267e88d17c1d710ec\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Paul\.android\build-cache\12b6f80f8d1243dd76c987e444ccaf307198cb56\output\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Paul\.android\build-cache\0f7e9353121859addb0b84af2e17938fe1c0a4bc\output\AndroidManifest.xml:20:5-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Patapignouf\.android\build-cache\cd6fb71474b03eacccf58f802944f331deef8f26\output\AndroidManifest.xml:21:22-76
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Paul\.android\build-cache\3701d15cab3c5d6be6f7a6451550fcd6a264f55c\output\AndroidManifest.xml:21:22-76
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Patapignouf\.android\build-cache\cd6fb71474b03eacccf58f802944f331deef8f26\output\AndroidManifest.xml:26:9-29:64
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Paul\.android\build-cache\3701d15cab3c5d6be6f7a6451550fcd6a264f55c\output\AndroidManifest.xml:26:9-29:64
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Patapignouf\.android\build-cache\cd6fb71474b03eacccf58f802944f331deef8f26\output\AndroidManifest.xml:28:13-122
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Paul\.android\build-cache\3701d15cab3c5d6be6f7a6451550fcd6a264f55c\output\AndroidManifest.xml:28:13-122
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Patapignouf\.android\build-cache\cd6fb71474b03eacccf58f802944f331deef8f26\output\AndroidManifest.xml:29:13-61
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Paul\.android\build-cache\3701d15cab3c5d6be6f7a6451550fcd6a264f55c\output\AndroidManifest.xml:29:13-61
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Patapignouf\.android\build-cache\cd6fb71474b03eacccf58f802944f331deef8f26\output\AndroidManifest.xml:27:13-65
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Paul\.android\build-cache\3701d15cab3c5d6be6f7a6451550fcd6a264f55c\output\AndroidManifest.xml:27:13-65
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
-ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Patapignouf\.android\build-cache\cd6fb71474b03eacccf58f802944f331deef8f26\output\AndroidManifest.xml:30:9-31:52
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Paul\.android\build-cache\3701d15cab3c5d6be6f7a6451550fcd6a264f55c\output\AndroidManifest.xml:30:9-31:52
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Patapignouf\.android\build-cache\cd6fb71474b03eacccf58f802944f331deef8f26\output\AndroidManifest.xml:31:13-50
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Paul\.android\build-cache\3701d15cab3c5d6be6f7a6451550fcd6a264f55c\output\AndroidManifest.xml:31:13-50
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Patapignouf\.android\build-cache\cd6fb71474b03eacccf58f802944f331deef8f26\output\AndroidManifest.xml:30:19-91
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Paul\.android\build-cache\3701d15cab3c5d6be6f7a6451550fcd6a264f55c\output\AndroidManifest.xml:30:19-91
 activity#com.google.android.gms.appinvite.PreviewActivity
-ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Patapignouf\.android\build-cache\ac1532fce0505cff2adc798af02f95f9b3c8ffe8\output\AndroidManifest.xml:21:9-29:20
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Paul\.android\build-cache\962cd09bb370753812a524a8a001c34aa29a082d\output\AndroidManifest.xml:21:9-29:20
 	android:exported
-		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Patapignouf\.android\build-cache\ac1532fce0505cff2adc798af02f95f9b3c8ffe8\output\AndroidManifest.xml:23:17-40
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Paul\.android\build-cache\962cd09bb370753812a524a8a001c34aa29a082d\output\AndroidManifest.xml:23:17-40
 	android:theme
-		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Patapignouf\.android\build-cache\ac1532fce0505cff2adc798af02f95f9b3c8ffe8\output\AndroidManifest.xml:24:17-63
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Paul\.android\build-cache\962cd09bb370753812a524a8a001c34aa29a082d\output\AndroidManifest.xml:24:17-63
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Patapignouf\.android\build-cache\ac1532fce0505cff2adc798af02f95f9b3c8ffe8\output\AndroidManifest.xml:22:17-48
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Paul\.android\build-cache\962cd09bb370753812a524a8a001c34aa29a082d\output\AndroidManifest.xml:22:17-48
 intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Patapignouf\.android\build-cache\ac1532fce0505cff2adc798af02f95f9b3c8ffe8\output\AndroidManifest.xml:25:13-28:29
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Paul\.android\build-cache\962cd09bb370753812a524a8a001c34aa29a082d\output\AndroidManifest.xml:25:13-28:29
 action#com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Patapignouf\.android\build-cache\ac1532fce0505cff2adc798af02f95f9b3c8ffe8\output\AndroidManifest.xml:26:17-89
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Paul\.android\build-cache\962cd09bb370753812a524a8a001c34aa29a082d\output\AndroidManifest.xml:26:17-89
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Patapignouf\.android\build-cache\ac1532fce0505cff2adc798af02f95f9b3c8ffe8\output\AndroidManifest.xml:26:25-87
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Paul\.android\build-cache\962cd09bb370753812a524a8a001c34aa29a082d\output\AndroidManifest.xml:26:25-87
 category#android.intent.category.DEFAULT
-ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Patapignouf\.android\build-cache\ac1532fce0505cff2adc798af02f95f9b3c8ffe8\output\AndroidManifest.xml:27:17-75
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Paul\.android\build-cache\962cd09bb370753812a524a8a001c34aa29a082d\output\AndroidManifest.xml:27:17-75
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Patapignouf\.android\build-cache\ac1532fce0505cff2adc798af02f95f9b3c8ffe8\output\AndroidManifest.xml:27:27-73
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Paul\.android\build-cache\962cd09bb370753812a524a8a001c34aa29a082d\output\AndroidManifest.xml:27:27-73
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Patapignouf\.android\build-cache\c83784fe303c9e8283dfe2b8db253a7c3db7c580\output\AndroidManifest.xml:21:9-24:46
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Paul\.android\build-cache\b66ba82bb16e4586e4849708059d2ec08d79ce48\output\AndroidManifest.xml:21:9-24:46
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Patapignouf\.android\build-cache\c83784fe303c9e8283dfe2b8db253a7c3db7c580\output\AndroidManifest.xml:23:19-52
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Paul\.android\build-cache\b66ba82bb16e4586e4849708059d2ec08d79ce48\output\AndroidManifest.xml:23:19-52
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Patapignouf\.android\build-cache\c83784fe303c9e8283dfe2b8db253a7c3db7c580\output\AndroidManifest.xml:24:19-43
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Paul\.android\build-cache\b66ba82bb16e4586e4849708059d2ec08d79ce48\output\AndroidManifest.xml:24:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Patapignouf\.android\build-cache\c83784fe303c9e8283dfe2b8db253a7c3db7c580\output\AndroidManifest.xml:22:19-78
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Paul\.android\build-cache\b66ba82bb16e4586e4849708059d2ec08d79ce48\output\AndroidManifest.xml:22:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Patapignouf\.android\build-cache\c83784fe303c9e8283dfe2b8db253a7c3db7c580\output\AndroidManifest.xml:21:19-72
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Paul\.android\build-cache\b66ba82bb16e4586e4849708059d2ec08d79ce48\output\AndroidManifest.xml:21:19-72
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Patapignouf\.android\build-cache\c83784fe303c9e8283dfe2b8db253a7c3db7c580\output\AndroidManifest.xml:28:9-31:110
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Paul\.android\build-cache\b66ba82bb16e4586e4849708059d2ec08d79ce48\output\AndroidManifest.xml:28:9-31:110
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Patapignouf\.android\build-cache\c83784fe303c9e8283dfe2b8db253a7c3db7c580\output\AndroidManifest.xml:30:13-36
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Paul\.android\build-cache\b66ba82bb16e4586e4849708059d2ec08d79ce48\output\AndroidManifest.xml:30:13-36
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Patapignouf\.android\build-cache\c83784fe303c9e8283dfe2b8db253a7c3db7c580\output\AndroidManifest.xml:31:13-107
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Paul\.android\build-cache\b66ba82bb16e4586e4849708059d2ec08d79ce48\output\AndroidManifest.xml:31:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Patapignouf\.android\build-cache\c83784fe303c9e8283dfe2b8db253a7c3db7c580\output\AndroidManifest.xml:29:13-62
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Paul\.android\build-cache\b66ba82bb16e4586e4849708059d2ec08d79ce48\output\AndroidManifest.xml:29:13-62
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Patapignouf\.android\build-cache\51dd16286a2dbcc3599f453734a8c94018ddda36\output\AndroidManifest.xml:21:5-82
+ADDED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Paul\.android\build-cache\ec1916c7331d782f1b674b78b1e3e08a51d4dbdc\output\AndroidManifest.xml:21:5-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Patapignouf\.android\build-cache\51dd16286a2dbcc3599f453734a8c94018ddda36\output\AndroidManifest.xml:21:22-79
+		ADDED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Paul\.android\build-cache\ec1916c7331d782f1b674b78b1e3e08a51d4dbdc\output\AndroidManifest.xml:21:22-79
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:24:5-67
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:24:22-65
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:24:22-65
 provider#com.google.android.gms.measurement.AppMeasurementContentProvider
-ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:28:7-31:37
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:28:7-31:37
 	android:authorities
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:29:11-76
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:29:11-76
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:31:11-35
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:31:11-35
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:30:11-90
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:30:11-90
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:33:7-39:18
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:33:7-39:18
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:35:11-33
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:35:11-33
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:34:11-83
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:34:11-83
 intent-filter#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:36:9-38:25
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:36:9-38:25
 action#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:37:11-77
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:37:11-77
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:37:19-75
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:37:19-75
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:41:7-44:37
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:41:7-44:37
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:43:11-33
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:43:11-33
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:44:11-35
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:44:11-35
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Patapignouf\.android\build-cache\0e14aa07d85f323ddeedc240e90b5403c1476b31\output\AndroidManifest.xml:42:11-82
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Paul\.android\build-cache\1dd7bb7dc36891cd6e32c13da8dca7f4b8de45e0\output\AndroidManifest.xml:42:11-82
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Patapignouf\.android\build-cache\e9b44d8e285bbe4c2bc3770cec871d527b4d55fd\output\AndroidManifest.xml:21:9-23:69
+ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Paul\.android\build-cache\499489d4f1a2b42f8b3360e12dba8a2e55f8b8b7\output\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Patapignouf\.android\build-cache\e9b44d8e285bbe4c2bc3770cec871d527b4d55fd\output\AndroidManifest.xml:23:13-66
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Paul\.android\build-cache\499489d4f1a2b42f8b3360e12dba8a2e55f8b8b7\output\AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Patapignouf\.android\build-cache\e9b44d8e285bbe4c2bc3770cec871d527b4d55fd\output\AndroidManifest.xml:22:13-58
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Paul\.android\build-cache\499489d4f1a2b42f8b3360e12dba8a2e55f8b8b7\output\AndroidManifest.xml:22:13-58
