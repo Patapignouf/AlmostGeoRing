@@ -90,7 +90,20 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 		TDButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View view) {
+				int nbp = pointbdd.getPointsByProject(AllClass.project).size();
+				ArrayList<Point3D> listePointBDD = new ArrayList<Point3D>();
 
+
+
+
+				for (int i = 0; i<nbr; i++){
+					Log.d("BDD","long :"+(float) pointbdd.getPointsByProject(AllClass.project).get(i).getLongi());
+					Log.d("BDD","lat :"+(float) pointbdd.getPointsByProject(AllClass.project).get(i).getLat());
+					Log.d("BDD","alt :"+(float) pointbdd.getPointsByProject(AllClass.project).get(i).getAltitude());
+
+					listePointBDD.add(new Point3D( (float) pointbdd.getPointsByProject(AllClass.project).get(i).getLongi(),(float) pointbdd.getPointsByProject(AllClass.project).get(i).getLat(), (float)pointbdd.getPointsByProject(AllClass.project).get(i).getAltitude()));
+
+				}
 
 
 				ArrayList<ArrayList<ArrayList<Point3D>>> data2 = new ArrayList<ArrayList<ArrayList<Point3D>>>();
@@ -115,7 +128,7 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 				//data3D datadata = new data3D(data);
 				Intent intent = new Intent(MainPrise.this, OpenGLES20Activity.class);
 				//intent.putExtra("data", datadata);
-				Log.d("debug1","J'ai réussi à créer le colis");
+				//Log.d("debug1","J'ai réussi à créer le colis");
 				startActivity(intent);
 			}
 		});
@@ -147,6 +160,8 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 
 
 		nbr=pointbdd.getPointsByProject(AllClass.project).size();
+		Log.d("debugBDD",String.valueOf(nbr));
+		Log.d("debugBDD",String.valueOf(pointbdd.getPointsByProject(AllClass.project).get(0).getAltitude()));
 		this.view = getWindow().getDecorView().findViewById(android.R.id.content);
 		getSupportActionBar().setTitle("Projet: "+getIntent().getExtras().getString("Folder"));
 
@@ -297,6 +312,7 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 					point.setLongi(0);
 					point.setAltitude(0);
 					point.setPendage(0);
+					point.setType_point("Sans_type");
 					point.setProject(AllClass.project);
 					MainPrise.pointbdd.insertPoint(point);
 					MainPrise.point = MainPrise.pointbdd.getPointWithTitre(AllClass.prise, AllClass.project);
@@ -357,10 +373,12 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 			alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
 				public void onClick(DialogInterface dialog, int whichButton) {
 					date = input.getText().toString();
+					Point pointFromBDD = MainPrise.pointbdd.getPointWithTitre(AllClass.prise,AllClass.project);
+					pointFromBDD.setType_point(date);
+					Log.d("BDD","type point courrant :"+pointFromBDD.getType_point());
 
 
-
-					Log.d("infodebug","On a cliqué sur le bouton date 2 !");
+					//Log.d("infodebug","On a cliqué sur le bouton date 2 !");
 				}
 			});
 			alert.show();
