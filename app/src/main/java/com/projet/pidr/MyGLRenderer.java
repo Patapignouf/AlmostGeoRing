@@ -272,7 +272,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         //pyramid2 = new Pyramid(vertices2, 9);
         //cube = new Cube();         // (NEW)
     }
-    public MyGLRenderer(Context context) {
+    public MyGLRenderer(Context context,  ArrayList<ArrayList<ArrayList<Point3D>>> data) {
         // Set up the buffers for these shapes
         float colorsurface4 = ((float) (Math.random()*1));
         float colorsurface2 = ((float) (Math.random()*1));
@@ -300,7 +300,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         //test2.add(test5);
 
         test.add(test2);
-        pyramid6 = PPPP(test);
+        pyramid6 = PPPP(data);
 
         //float colorsurface4 = ((float) (Math.random()*1));
 

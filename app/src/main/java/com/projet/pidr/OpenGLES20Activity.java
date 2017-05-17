@@ -19,24 +19,70 @@ import android.app.Activity;
 import android.content.Intent;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
+
+import java.util.ArrayList;
 
 public class OpenGLES20Activity extends Activity {
 
     Button buttonback2;
     private GLSurfaceView mGLView;
+    static ArrayList<ArrayList<ArrayList<Point3D>>> data = new ArrayList<ArrayList<ArrayList<Point3D>>>();
+
+    public static ArrayList<ArrayList<ArrayList<Point3D>>> getData() {
+        return data;
+    }
+
+    public static void setData(ArrayList<ArrayList<ArrayList<Point3D>>> data) {
+        OpenGLES20Activity.data = data;
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_threedview);
+
+        /*
+        Intent intent = getIntent();
+        Log.d("debug1","Je suis prêt à recevoir le colis");
+        data3D data = (data3D)intent.getSerializableExtra("data");
+        Log.d("debug1","J'ai réussi à récupérer le colis");
+        */
+        /*
+        ArrayList<ArrayList<ArrayList<Point3D>>> data = new ArrayList<ArrayList<ArrayList<Point3D>>>();
+        ArrayList<ArrayList<Point3D>> test2 = new ArrayList<ArrayList<Point3D>>();
+        ArrayList<Point3D> test3 = new ArrayList<Point3D>();
+        ArrayList<Point3D> test4 = new ArrayList<Point3D>();
+        ArrayList<Point3D> test5 = new ArrayList<Point3D>();
+        test3.add(new Point3D(0.5f, 1.0f, 0.5f));
+        test3.add(new Point3D(0.5f, 1.5f, 0.0f));
+        test3.add(new Point3D(0.0f, 1.5f, 0.0f));
+        test4.add(new Point3D(0.5f, 1.0f, 0.5f));
+        test4.add(new Point3D(0.5f, 1.5f, 0.0f));
+        test4.add(new Point3D(1.0f, 1.0f, 0.5f));
+
+
+        test2.add(test3);
+        test2.add(test4);
+        //test2.add(test5);
+
+        data.add(test2);
+        */
+
+
 
         // Create a GLSurfaceView instance and set it
         // as the ContentView for this Activity
-        mGLView = new MyGLSurfaceView(this);
+        mGLView = new MyGLSurfaceView(this, data);
+        //Il faut qu'on récupère ici la MegaListe de points
+
+
+
         //setContentView(mGLView);
-        setContentView(R.layout.activity_threedview);
+
         FrameLayout frame = (FrameLayout)findViewById(R.id.visualizer);
         Button buttonback2 = (Button) findViewById(R.id.buttonback2);
         Button buttonZoomIn = (Button) findViewById(R.id.buttonZI);

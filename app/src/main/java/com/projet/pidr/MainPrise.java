@@ -90,7 +90,32 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 		TDButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View view) {
+
+
+
+				ArrayList<ArrayList<ArrayList<Point3D>>> data2 = new ArrayList<ArrayList<ArrayList<Point3D>>>();
+				ArrayList<ArrayList<Point3D>> test2 = new ArrayList<ArrayList<Point3D>>();
+				ArrayList<Point3D> test3 = new ArrayList<Point3D>();
+				ArrayList<Point3D> test4 = new ArrayList<Point3D>();
+				ArrayList<Point3D> test5 = new ArrayList<Point3D>();
+				test3.add(new Point3D(0.5f, 1.0f, 0.5f));
+				test3.add(new Point3D(0.5f, 1.5f, 0.0f));
+				test3.add(new Point3D(0.0f, 1.5f, 0.0f));
+				test4.add(new Point3D(0.5f, 1.0f, 0.5f));
+				test4.add(new Point3D(0.5f, 1.5f, 0.0f));
+				test4.add(new Point3D(1.0f, 1.0f, 0.5f));
+
+
+				test2.add(test3);
+				test2.add(test4);
+				//test2.add(test5);
+
+				data2.add(test2);
+				OpenGLES20Activity.setData(data2);
+				//data3D datadata = new data3D(data);
 				Intent intent = new Intent(MainPrise.this, OpenGLES20Activity.class);
+				//intent.putExtra("data", datadata);
+				Log.d("debug1","J'ai réussi à créer le colis");
 				startActivity(intent);
 			}
 		});

@@ -35,17 +35,18 @@ public class MyGLSurfaceView extends GLSurfaceView {
 
     //On va récupérer ici les points de la BDD et si possible le rayon ^^
 
+    ArrayList<ArrayList<ArrayList<Point3D>>> test = new ArrayList<ArrayList<ArrayList<Point3D>>>();
     ArrayList<ArrayList<Point3D>> listePoints ;
     float rayon;
 
 
 
     // Constructor - Allocate and set the renderer
-    public MyGLSurfaceView(Context context) {
+    public MyGLSurfaceView(Context context, ArrayList<ArrayList<ArrayList<Point3D>>> data) {
         //On récupère ici les données de la BDD
 
         super(context);
-        renderer = new MyGLRenderer(context);
+        renderer = new MyGLRenderer(context,data);
         //renderer = new MyGLRenderer(context,listePoints);
         this.setRenderer(renderer);
         // Request focus, otherwise key/button won't react
