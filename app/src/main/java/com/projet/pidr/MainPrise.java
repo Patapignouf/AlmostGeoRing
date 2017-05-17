@@ -95,7 +95,7 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 
 
 
-
+				//La on récupère les points du projet
 				for (int i = 0; i<nbr; i++){
 					Log.d("BDD","long :"+(float) pointbdd.getPointsByProject(AllClass.project).get(i).getLongi());
 					Log.d("BDD","lat :"+(float) pointbdd.getPointsByProject(AllClass.project).get(i).getLat());
