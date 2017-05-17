@@ -130,6 +130,9 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
         new Gps(this, this.view);
         new Mesure(this, this.view);
         /*new Faille(this, this.view);*/
+
+        //On tient la sans doutes l'explication de pourquoi les failles ne fonctionnent pas ^^
+
         list = (ListView) findViewById(R.id.listView2);
         String[] planets = new String[] {};
 		listAdapter = new OurAdapter(this, R.layout.listview, planetList,this.view);
