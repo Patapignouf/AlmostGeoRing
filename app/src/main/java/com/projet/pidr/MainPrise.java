@@ -161,7 +161,7 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 
 		nbr=pointbdd.getPointsByProject(AllClass.project).size();
 		Log.d("debugBDD",String.valueOf(nbr));
-		Log.d("debugBDD",String.valueOf(pointbdd.getPointsByProject(AllClass.project).get(0).getAltitude()));
+		//Log.d("debugBDD",String.valueOf(pointbdd.getPointsByProject(AllClass.project).get(0).getAltitude()));
 		this.view = getWindow().getDecorView().findViewById(android.R.id.content);
 		getSupportActionBar().setTitle("Projet: "+getIntent().getExtras().getString("Folder"));
 
