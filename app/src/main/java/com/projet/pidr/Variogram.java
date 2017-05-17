@@ -16,11 +16,15 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+
+
 import com.github.mikephil.charting.charts.Chart;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
+
+import Jama.Matrix;
 
 /**
  * Created by Paul on 15/05/2017.
@@ -103,6 +107,16 @@ public class Variogram extends Activity{
         V.add(4);
         V.add(4);
         */
+
+        /*
+        double[][] array = {{1.,2.,3},{4.,5.,6.},{7.,8.,10.}};
+        Matrix A = new Matrix(array);
+        Matrix b = Matrix.random(3,1);
+        Matrix x = A.solve(b);
+        Matrix Residual = A.times(x).minus(b);
+        double rnorm = Residual.normInf();
+        */
+
         dist=1;
         Log.d("+++++++++++++++++++++","");
         setContentView(R.layout.activity_variogram);
