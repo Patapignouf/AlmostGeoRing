@@ -46,7 +46,7 @@ public class MyGLSurfaceView extends GLSurfaceView {
 
         super(context);
         renderer = new MyGLRenderer(context);
-        //renderer = new MyGLRenderer(context,listePoints,rayon);
+        //renderer = new MyGLRenderer(context,listePoints);
         this.setRenderer(renderer);
         // Request focus, otherwise key/button won't react
         this.requestFocus();

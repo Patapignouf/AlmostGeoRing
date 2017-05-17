@@ -19,6 +19,7 @@ import javax.microedition.khronos.opengles.GL10;
 import android.content.Context;
 import android.opengl.GLSurfaceView;
 import android.opengl.GLU;
+import android.util.Log;
 
 import java.util.ArrayList;
 
@@ -27,6 +28,8 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     private Pyramid[] pyramid;    // (NEW)
     private Pyramid pyramid2;
     private Pyramid pyramid3;
+    private Pyramid[][] pyramid6;
+    private Pyramid[] pyramid4= new Pyramid[9];
     //private Cube cube;          // (NEW)
 
     private static float anglePyramid = 0; // Rotational angle in degree for pyramid (NEW)
@@ -137,88 +140,122 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
             3.0f, 1.5f,  1.0f,  //
     };
 
+    private float[][] vertices3 = {{  // Vertices of the 6 faces
+            // FRONT
+            2.0f, -1.0f,  1.0f,  // 0. left-bottom-front    D/H/P
+            4.0f, -1.0f,  1.0f,  // 1. right-bottom-front
+            2.0f,  1.0f,  1.0f,  // 2. left-top-front
+            4.0f,  1.0f,  1.0f },{  // 3. right-top-front
+            // BACK
+            4.0f, -1.0f, -1.0f,  // 6. right-bottom-back
+            2.0f, -1.0f, -1.0f,  // 4. left-bottom-back
+            4.0f,  1.0f, -1.0f,  // 7. right-top-back
+            2.0f,  1.0f, -1.0f},{  // 5. left-top-back
+            // LEFT
+            2.0f, -1.0f, -1.0f,  // 4. left-bottom-back
+            2.0f, -1.0f,  1.0f,  // 0. left-bottom-front
+            2.0f,  1.0f, -1.0f,  // 5. left-top-back
+            2.0f,  1.0f,  1.0f},{  // 2. left-top-front
+            // RIGHT
+            4.0f, -1.0f,  1.0f,  // 1. right-bottom-front
+            4.0f, -1.0f, -1.0f,  // 6. right-bottom-back
+            4.0f,  1.0f,  1.0f,  // 3. right-top-front
+            4.0f,  1.0f, -1.0f},{  // 7. right-top-back
+            // TOP
+            2.0f,  1.0f,  1.0f,  // 2. left-top-front
+            4.0f,  1.0f,  1.0f,  // 3. right-top-front
+            2.0f,  1.0f, -1.0f,  // 5. left-top-back
+            4.0f,  1.0f, -1.0f},{  // 7. right-top-back
+            // BOTTOM
+            2.0f, -1.0f, -1.0f,  // 4. left-bottom-back
+            4.0f, -1.0f, -1.0f,  // 6. right-bottom-back
+            2.0f, -1.0f,  1.0f,  // 0. left-bottom-front
+            4.0f, -1.0f,  1.0f},{   // 1. right-bottom-front
 
-    public ArrayList<Point3D> PPP(ArrayList<Point3D> listPoints, float rayon) {
-        //Fonction permettant de réaliser les triangles OpenGL à partir du maillage.
-        //On initialise les variables utiles
-        ArrayList<Point3D> result = new ArrayList<Point3D>();
+            4.0f, 1.0f, 1.0f,  // D/H/P
+            3.0f, 1.5f, 1.0f,  //
+            4.0f, 1.0f, -1.0f,  //
+            3.0f, 1.5f, -1.0f},{   //
 
-        float distanceT;
-        int marqueur =0;
-        Point3D currentPointT;
-        float x;
-        float y;
-        float z;
-        Point3D currentPoint2 ;
-        float x2 ;
-        float y2 ;
-        float z2 ;
 
-        Point3D currentPoint3 = listPoints.get(0) ;
-        float x3 ;
-        float y3 ;
-        float z3 ;
+            2.0f, 1.0f, 1.0f,  //
+            3.0f, 1.5f, 1.0f,  //
+            2.0f, 1.0f, -1.0f,  //
+            3.0f, 1.5f, -1.0f},{   //
 
-        for (int j = 0; j <= listPoints.size() - 1; j++) {
-            //On va réaliser une première boucle pour traiter tous les points.
-            currentPointT = listPoints.get(j);
-            x = listPoints.get(j).x;
-            y = listPoints.get(j).x;
-            z = listPoints.get(j).x;
+            4.0f, 1.0f, 1.0f,  //
+            2.0f, 1.0f, 1.0f,  //
+            3.0f, 1.5f,  1.0f,  //
+            3.0f, 1.5f,  1.0f}  //
+    };
 
-            for (int i = 0; i <= listPoints.size() - 1; i++) {
-                //Pour chaque points on va chercher les points qui se situent dans le rayon du maillage.
-                currentPoint2 = listPoints.get(i);
-                x2 = currentPoint2.x;
-                y2 = currentPoint2.y;
-                z2 = currentPoint2.z;
-                distanceT = (float) Math.sqrt(Math.pow(x - x2, 2) + Math.pow(y - y2, 2) + Math.pow(z - z2, 2));
-                if ((distanceT < rayon) && (distanceT > 0)) {
-                //On va réinitialiser le marqueur
-                marqueur = 0;
 
-                    for (int k = i; k <= listPoints.size() - 1; k++){
-                        //On cherche un troisième point dans ce rayon pour tracer un triangle
-                        currentPoint3 = listPoints.get(k);
-                        x3 = currentPoint3.x;
-                        y3 = currentPoint3.y;
-                        z3 = currentPoint3.z;
-                        distanceT = (float) Math.sqrt(Math.pow(x - x3, 2) + Math.pow(y - y3, 2) + Math.pow(z - z3, 2));
-                        if ((distanceT < rayon) && (distanceT > 0)) {
-                            marqueur = 1;
-                            //Si le marqueur vaut 1 -> On a nos trois points
-                        }
-                    }
+    public Pyramid[][] PPPP(ArrayList<ArrayList<ArrayList<Point3D>>> listlistlistPoints ) {
+        Pyramid[][] pyramid5 = new Pyramid[listlistlistPoints.size()][];
+        ArrayList<ArrayList<Point3D>> listlistPoints = new ArrayList<ArrayList<Point3D>>();
 
-                    if (marqueur!=0){
-                        //On obtient simplement notre triangle uniquement si on a les deux précédents points
-                        result.add(currentPointT);
-                        result.add(currentPoint2);
-                        result.add(currentPoint3);
-                        result.add(currentPoint3);
-                    }
+        Log.d("info","coucou");
+        for (int i = 0; i < listlistlistPoints.size(); i++) {
+            listlistPoints = listlistlistPoints.get(i);
+            pyramid5 = new Pyramid[listlistlistPoints.size()][listlistPoints.size()];
+            float colorsurface4 = ((float) (Math.random() * 1));
+            float colorsurface2 = ((float) (Math.random() * 1));
+            float colorsurface3 = ((float) (Math.random() * 1));
+            Log.d("info", String.valueOf(listlistPoints.size()));
+            for (int j = 0; j < listlistPoints.size(); j++) {
+                Log.d("info", String.valueOf(j));
+                pyramid5[i][j] = new Pyramid(PPP(listlistPoints)[j], colorsurface4, colorsurface2, colorsurface3, 1);
 
-                }
+                Log.d("info2", String.valueOf(PPP(listlistPoints)[j]));
+
+
             }
 
 
         }
-        return result;
+        return pyramid5;
+    }
+
+
+
+
+    public float[][] PPP(ArrayList<ArrayList<Point3D>> listlistPoints) {
+        //Fonction permettant de réaliser les triangles OpenGL à partir du maillage.
+        //On initialise les variables utiles
+
+        ArrayList<Point3D> currentTriangle = new ArrayList<Point3D>();
+        float[][] resultfin = new float[listlistPoints.size()][12];
+
+
+        for (int j = 0; j <= listlistPoints.size() - 1; j++) {
+                    //Log.d("info", "Nombre de figures affichées :" + String.valueOf(j));
+
+
+
+                    currentTriangle = listlistPoints.get(j);
+                    resultfin[j]  =  ConvertToArray(currentTriangle);
+        }
+
+        return resultfin;
     }
 
 
     public float[] ConvertToArray(ArrayList<Point3D> listPoints){
-        float[] result = new float[listPoints.size()*3];
+        float[] result = new float[listPoints.size()*4];
         //On va créer un tableau de float de trois fois la taille du tableau de points pour y mettre chaque coordonnée
 
-        for (int i=0; i<result.length; i++){
-            result[i]=listPoints.get(i).x;
-            result[i+1]=listPoints.get(i).y;
-            result[i+2]=listPoints.get(i).z;
-            i=i+3;
+        for (int i=0; i<listPoints.size(); i++){
+            int j = i*3;
+            result[j]=listPoints.get(i).x;
+            result[j+1]=listPoints.get(i).y;
+            result[j+2]=listPoints.get(i).z;
 
             //Chaque point est divisé de la sorte -> x,y,z pour pouvoir être tracé par OpenGL
         }
+        result[9]=listPoints.get(0).getX();
+        result[10]=listPoints.get(0).getY();
+        result[11]=listPoints.get(0).getZ();
+        Log.d("info", "result :"+Float.toString(result[0]));
         return result;
     }
 
@@ -229,7 +266,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         pyramid = new Pyramid[listePoints.size()];
         float[] tampon;
         for (int i = 0; i<listePoints.size(); i++) {
-            pyramid[i] = new Pyramid(ConvertToArray(PPP(listePoints.get(i), rayon)), ConvertToArray(PPP(listePoints.get(i), rayon)).length / 12);   // (NEW)
+            //pyramid[i] = new Pyramid(ConvertToArray(PPP(listePoints.get(i), rayon)), ConvertToArray(PPP(listePoints.get(i), rayon)).length / 12);   // (NEW)
         }
 
         //pyramid2 = new Pyramid(vertices2, 9);
@@ -237,9 +274,44 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     }
     public MyGLRenderer(Context context) {
         // Set up the buffers for these shapes
+        float colorsurface4 = ((float) (Math.random()*1));
+        float colorsurface2 = ((float) (Math.random()*1));
+        float colorsurface3 = ((float) (Math.random()*1));
 
-        pyramid2 = new Pyramid(vertices, 9);
-        pyramid3 = new Pyramid(vertices2, 9);
+        //Pyramid[][] pyramid5 = new Pyramid[listlistlistPoints.size()][];*
+
+        //pyramid2 = new Pyramid(vertices, 9);
+        //pyramid3 = new Pyramid(vertices2, 9);
+        ArrayList<ArrayList<ArrayList<Point3D>>> test = new ArrayList<ArrayList<ArrayList<Point3D>>>();
+        ArrayList<ArrayList<Point3D>> test2 = new ArrayList<ArrayList<Point3D>>();
+        ArrayList<Point3D> test3 = new ArrayList<Point3D>();
+        ArrayList<Point3D> test4 = new ArrayList<Point3D>();
+        ArrayList<Point3D> test5 = new ArrayList<Point3D>();
+        test3.add(new Point3D(0.5f, 1.0f, 0.5f));
+        test3.add(new Point3D(0.5f, 1.5f, 0.0f));
+        test3.add(new Point3D(0.0f, 1.5f, 0.0f));
+        test4.add(new Point3D(0.5f, 1.0f, 0.5f));
+        test4.add(new Point3D(0.5f, 1.5f, 0.0f));
+        test4.add(new Point3D(1.0f, 1.0f, 0.5f));
+
+
+        test2.add(test3);
+        test2.add(test4);
+        //test2.add(test5);
+
+        test.add(test2);
+        pyramid6 = PPPP(test);
+
+        //float colorsurface4 = ((float) (Math.random()*1));
+
+
+        /*
+        for (int i = 0; i<pyramid4.length; i++) {
+            pyramid4[i] = new Pyramid(vertices3[i],colorsurface4,colorsurface2,colorsurface3, 1);   // (NEW)
+        }
+        */
+
+
         //cube = new Cube();         // (NEW)
     }
 
@@ -299,9 +371,25 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
             //On affiche toutes les surfaces
         }
         */
+        /*
+        for (int i = 0; i < pyramid4.length; i++){
+            pyramid4[i].draw(gl);
+            //On affiche toutes les surfaces
+        }
+        */
+        for (int i = 0; i < pyramid6.length; i++){
+            for (int j = 0; j < pyramid6[i].length; j++) {
+
+                pyramid6[i][j].draw(gl);
+            }
+            //On affiche toutes les surfaces
+        }
+
+
+        /*
         pyramid2.draw(gl);
         pyramid3.draw(gl);
-                                // Draw the pyramid (NEW)
+        */                        // Draw the pyramid (NEW)
         //pyramid2.draw(gl);
         // ----- Render the Color Cube -----
                  // Draw the cube (NEW)

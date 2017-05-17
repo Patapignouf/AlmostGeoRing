@@ -24,7 +24,7 @@ public class Pyramid {
     private FloatBuffer colorBuffer;   // Buffer for color-array
     private ByteBuffer indexBuffer;    // Buffer for index-array
 
-    private float colorsurface1 = ((float) (Math.random()*1));
+    private float colorsurface1 = ((float) ((((Math.random()*0.8))+0.2)));
     private float colorsurface2 = ((float) (Math.random()*1));
     private float colorsurface3 = ((float) (Math.random()*1));
     private float colorsurface4 = ((float) (Math.random()*1));
@@ -63,24 +63,37 @@ public class Pyramid {
     };
 
     private byte[] indices = { // Vertex indices of the 4 Triangles
-            2, 2, 2, 2,   // front face (CCW)
+            0, 0, 0, 0, 0, 0, 0, 0, 0,// front face (CCW)
+            1, 1, 1, 1, 1, 1, 1, 1, 1,// front face (CCW)
+            2, 2, 2, 2, 2, 2, 2, 2, 2,// front face (CCW)
+            3, 3, 3, 3, 3, 3, 3, 3, 3,// front face (CCW)
+            4, 4, 4, 4, 4, 4, 4, 4, 4,// front face (CCW)
+            5, 5, 5, 5, 5, 5, 5, 5, 5,// front face (CCW)
             /*
             1, 4, 2, 1,  // right face
             0, 4, 1, 3,  // back face
             4, 0, 3, 4,   // left face
             */
-            2, 2, 2, 2,
-            2, 2, 2, 2,
-            2, 2, 2, 2,
-            2, 2, 2, 2,
-            2, 2, 2, 2,
-            2, 2, 2, 2
+            /*
+            0, 0, 0, 0,   // front face (CCW)
+            0, 0, 0, 0,   // front face (CCW)
+            0, 0, 0, 0,   // front face (CCW)
+            0, 0, 0, 0,   // front face (CCW)
+            0, 0, 0, 0,   // front face (CCW)
+            0, 0, 0, 0,   // front face (CCW)
+            0, 0, 0, 0,   // front face (CCW)
+            */
+
     };
 
     // Constructor - Set up the buffers
-    public Pyramid(float[] vertices, int numFaces) {
+    public Pyramid(float[] vertices, float colorsurface4, float colorsurface2, float colorsurface3, int numFaces) {
         this.vertices = vertices;
         this.numFaces = numFaces;
+        this.colorsurface4 = colorsurface4;
+        this.colorsurface2 = colorsurface2;
+        this.colorsurface3 = colorsurface3;
+
         // Setup vertex-array buffer. Vertices in float. An float has 4 bytes
         ByteBuffer vbb = ByteBuffer.allocateDirect(vertices.length * 4);
         vbb.order(ByteOrder.nativeOrder()); // Use native byte order
@@ -101,34 +114,35 @@ public class Pyramid {
         indexBuffer.position(0);
     }
 
+
+
     // Draw the shape
     public void draw(GL10 gl) {
         gl.glFrontFace(GL10.GL_CCW);  // Front face in counter-clockwise orientation
 
-        /*
-        gl.glEnable(GL10.GL_LIGHT0);
-        gl.glEnable(GL10.GL_TEXTURE_2D); //Enable Texture Mapping ( NEW )
-        gl.glShadeModel(GL10.GL_SMOOTH); //Enable Smooth Shading
-
+/*
+        gl.glDisable(GL10.GL_COLOR_MATERIAL);
+        gl.glEnable(GL10.GL_CULL_FACE);
+        gl.glShadeModel(GL10.GL_SMOOTH);
+        gl.glDisable(GL10.GL_COLOR_MATERIAL);
+        gl.glEnable(GL10.GL_LIGHTING);
+        gl.glEnable(GL10.GL_CULL_FACE);
+        gl.glEnable(GL10.GL_DEPTH_TEST);
+        gl.glEnable(GL10.GL_NORMALIZE);
         */
-
+        //gl.glEnable(GL10.GL_POLYGON_OFFSET_FILL);
 
         gl.glMaterialfv(GL10.GL_FRONT_AND_BACK, GL10.GL_EMISSION, fb) ;
         gl.glEnable(GL10.GL_COLOR_MATERIAL);
         // Enable arrays and define their buffers
         gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
         gl.glVertexPointer(3, GL10.GL_FLOAT, 0, vertexBuffer);
-        gl.glEnableClientState(GL10.GL_COLOR_ARRAY);
+        //gl.glEnableClientState(GL10.GL_COLOR_ARRAY);
         gl.glColorPointer(4, GL10.GL_FLOAT, 0, colorBuffer);
         gl.glColor4f( colorsurface1, colorsurface2, colorsurface3, colorsurface4);
         gl.glDrawElements(GL10.GL_TRIANGLES, indices.length, GL10.GL_UNSIGNED_BYTE,indexBuffer);
 
-        /*
-        gl.glHint(GL10.GL_PERSPECTIVE_CORRECTION_HINT, GL10.GL_FASTEST);
-        gl.glShadeModel(GL10.GL_FLAT);
-        gl.glDisable(GL10.GL_DITHER);
-        gl.glDisable(GL10.GL_LIGHTING);
-        */
+
         for (int face = 0; face < numFaces; face++) {
             // Set the color for each of the faces
 
@@ -137,6 +151,6 @@ public class Pyramid {
         }
 
         gl.glDisableClientState(GL10.GL_VERTEX_ARRAY);
-        gl.glDisableClientState(GL10.GL_COLOR_ARRAY);
+        gl.glDisable(GL10.GL_CULL_FACE);
     }
 }
