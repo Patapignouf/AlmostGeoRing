@@ -3,6 +3,9 @@ package com.projet.pidr;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
+
+import android.app.Activity;
+import android.app.Dialog;
 import android.support.v7.app.ActionBarActivity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -28,6 +31,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.EditText;
 
+import static android.R.attr.name;
+
 public class MainPrise extends AppCompatActivity implements SensorEventListener,OnClickListener,OnItemClickListener, android.content.DialogInterface.OnClickListener {
 	TextView readingAzimuth, readingRoll;
 	Float azimut;  // View to draw a compass
@@ -41,6 +46,9 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 	ArrayList<Float> meanAzimuth = new ArrayList<Float>();
 	ArrayList<Float> meanRoll = new ArrayList<Float>();
 	ArrayList<String> planetList = new ArrayList<String>();
+	private AlertDialog.Builder alert;
+	String date;
+
 
 	private float[] mGravity;
 	private float[] mGeomagnetic;
@@ -108,14 +116,9 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 			}
 		});
 
-        buttondate = (ImageButton) findViewById(R.id.date);
-		buttondate.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Log.d("","Je ne fonctionne pas encore");
 
-			}
-		});
+
+
 
 
 		nbr=pointbdd.getPointsByProject(AllClass.project).size();
@@ -137,8 +140,10 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
         Load_Folder();
         add=(Button) this.findViewById(R.id.add);
         delete=(Button) this.findViewById(R.id.delete);
+		buttondate = (ImageButton) findViewById(R.id.date);
         add.setOnClickListener(this);
         delete.setOnClickListener(this);
+		buttondate.setOnClickListener(this);
 
         readingRoll = (TextView)findViewById(R.id.roll);
         readingAzimuth = (TextView)findViewById(R.id.azimuth);
@@ -310,9 +315,28 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 			this.priseName();
 		} else if (id == R.id.delete) {
 			this.confirmDelete();
-		}
-	}
+		} else if (id == (R.id.date)) {
+			Log.d("infodebug","On a cliqué sur le bouton date !");
+			alert = new AlertDialog.Builder(this);
+			alert.setTitle("Veuillez entrez le type de roche");
+			alert.setMessage("Type");
+			// Set an EditText view to get user input
+			input = new EditText(this);
+			alert.setView(input);
+			alert.setNegativeButton("Annuler", this);
 
+			alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+				public void onClick(DialogInterface dialog, int whichButton) {
+					date = input.getText().toString();
+
+
+
+					Log.d("infodebug","On a cliqué sur le bouton date 2 !");
+				}
+			});
+		}
+		alert.show();
+	}
 
 	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position,long id) {
