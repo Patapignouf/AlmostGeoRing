@@ -319,6 +319,7 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 		} else if (id == R.id.delete) {
 			this.confirmDelete();
 		} else if (id == (R.id.date)) {
+
 			Log.d("infodebug","On a cliqué sur le bouton date !");
 			alert = new AlertDialog.Builder(this);
 			alert.setTitle("Veuillez entrez le type de roche");
@@ -337,8 +338,11 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 					Log.d("infodebug","On a cliqué sur le bouton date 2 !");
 				}
 			});
+			alert.show();
 		}
-		alert.show();
+
+
+
 	}
 
 	@Override
