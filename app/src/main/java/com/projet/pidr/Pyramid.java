@@ -24,7 +24,7 @@ public class Pyramid {
     private FloatBuffer colorBuffer;   // Buffer for color-array
     private ByteBuffer indexBuffer;    // Buffer for index-array
 
-    private float colorsurface1 = ((float) (Math.random()*1));
+    private float colorsurface1 = ((float) ((((Math.random()*0.8))+0.2)));
     private float colorsurface2 = ((float) (Math.random()*1));
     private float colorsurface3 = ((float) (Math.random()*1));
     private float colorsurface4 = ((float) (Math.random()*1));
