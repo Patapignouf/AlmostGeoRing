@@ -190,7 +190,7 @@ public class PointBDD {
 
         ArrayList<String> output = new ArrayList<String>();
 
-        Cursor c = bdd.query(TABLE, new String[]{PRISE_KEY, PRISE_INTITULE, PRISE_LONG, PRISE_LAT, PRISE_ALT, PRISE_AZIMUTH, PRISE_PENDAGE, PRISE_PROJECT}, PRISE_PROJECT + " = ?", new String[]{project}, null, null, null, null);
+        Cursor c = bdd.query(TABLE, new String[]{PRISE_KEY, PRISE_INTITULE, PRISE_LONG, PRISE_LAT, PRISE_ALT, PRISE_AZIMUTH, PRISE_PENDAGE, PRISE_PROJECT, PRISE_TYPE}, PRISE_PROJECT + " = ?", new String[]{project}, null, null, null, null);
 
         if (null != c) {
             if (c.moveToFirst()) {

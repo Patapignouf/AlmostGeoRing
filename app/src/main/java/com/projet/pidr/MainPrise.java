@@ -426,10 +426,13 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 
 			alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
 				public void onClick(DialogInterface dialog, int whichButton) {
+					Point pointFromBDD = MainPrise.pointbdd.getPointWithTitre(AllClass.prise,AllClass.project);
 					date = input.getText().toString();
-					MainPrise.point.setType_point(date);
+					pointFromBDD.setType_point(date);
+					//MainPrise.point.
 					Log.d("BDD","type point courrant :"+MainPrise.point.getType_point());
 
+					MainPrise.pointbdd.updatePoint(pointFromBDD.getId(),pointFromBDD);
 
 					//Log.d("infodebug","On a cliqué sur le bouton date 2 !");
 				}
@@ -465,6 +468,7 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 		((TextView)this.view.findViewById(R.id.mesAz)).setText(String.valueOf("Azimuth : "+MainPrise.point.getAzimuth()));
 		((TextView)this.view.findViewById(R.id.mesRoll)).setText(String.valueOf("Pendage : "+MainPrise.point.getPendage()));
 		((TextView)this.view.findViewById(R.id.texttype)).setText(String.valueOf("Type : "+MainPrise.point.getType_point()));
+		Log.d("update","DONE");
 
 
 
