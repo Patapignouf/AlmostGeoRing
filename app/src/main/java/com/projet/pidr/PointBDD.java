@@ -35,10 +35,10 @@ public class PointBDD {
     public static final String PRISE_PROJECT = "project";
     public static final int NUM_COL_PROJECT = 7;
 
-    public static final String TYPE_POINT = "type_point";
+    public static final String PRISE_TYPE = "type_point";
     public  static final int NUM_COL_TYPE_POINT = 8;
 
-    protected int VERSION = 147;
+    protected int VERSION = 150;
 
     // Le nom du fichier qui repr��sente ma base
     protected final static String NOM = "pointFinal.db";
@@ -83,6 +83,7 @@ public class PointBDD {
         values.put(PRISE_AZIMUTH, point.getAzimuth());
         values.put(PRISE_PENDAGE, point.getPendage());
         values.put(PRISE_PROJECT, point.getProject());
+        values.put(PRISE_TYPE, point.getType_point());
         //on insère l'objet dans la BDD via le ContentValues
         return bdd.insert(TABLE, null, values);
 
@@ -104,12 +105,13 @@ public class PointBDD {
         values.put(PRISE_AZIMUTH, point.getAzimuth());
         values.put(PRISE_PENDAGE, point.getPendage());
         values.put(PRISE_PROJECT, AllClass.project);
+        values.put(PRISE_TYPE, point.getType_point());
         return bdd.update(TABLE, values, PRISE_KEY + " = " + id, null);
     }
 
     public Point getPointWithTitre(String titre, String project) {
         //Récupère dans un Cursor les valeur correspondant à un livre contenu dans la BDD (ici on sélectionne le livre grâce à son titre)
-        Cursor c = bdd.query(TABLE, new String[]{PRISE_KEY, PRISE_INTITULE, PRISE_LONG, PRISE_LAT, PRISE_ALT, PRISE_AZIMUTH, PRISE_PENDAGE, PRISE_PROJECT}, PRISE_INTITULE + " LIKE ? AND " + PRISE_PROJECT + " LIKE ?", new String[]{"%" + titre + "%", "%" + project + "%"}, null, null, null, null);
+        Cursor c = bdd.query(TABLE, new String[]{PRISE_KEY, PRISE_INTITULE, PRISE_LONG, PRISE_LAT, PRISE_ALT, PRISE_AZIMUTH, PRISE_PENDAGE, PRISE_PROJECT, PRISE_TYPE}, PRISE_INTITULE + " LIKE ? AND " + PRISE_PROJECT + " LIKE ?", new String[]{"%" + titre + "%", "%" + project + "%"}, null, null, null, null);
         return cursorToPoint(c);
     }
 
@@ -132,6 +134,7 @@ public class PointBDD {
         point.setAzimuth(c.getDouble(NUM_COL_AZIMUTH));
         point.setPendage(c.getDouble(NUM_COL_PENDAGE));
         point.setProject(c.getString(NUM_COL_PROJECT));
+        point.setType_point(c.getString(NUM_COL_TYPE_POINT));
         //On ferme le cursor
         c.close();
         //On retourne le livre
@@ -144,7 +147,7 @@ public class PointBDD {
 
         String[] colonnesARecup = new String[]{PRISE_KEY};
 
-        Cursor c = bdd.query(TABLE, new String[]{PRISE_KEY, PRISE_INTITULE, PRISE_LONG, PRISE_LAT, PRISE_ALT, PRISE_AZIMUTH, PRISE_PENDAGE, PRISE_PROJECT}, PRISE_PROJECT + " = ?", new String[]{project}, null, null, null, null);
+        Cursor c = bdd.query(TABLE, new String[]{PRISE_KEY, PRISE_INTITULE, PRISE_LONG, PRISE_LAT, PRISE_ALT, PRISE_AZIMUTH, PRISE_PENDAGE, PRISE_PROJECT, PRISE_TYPE}, PRISE_PROJECT + " = ?", new String[]{project}, null, null, null, null);
 
         if (null != c) {
             if (c.moveToFirst()) {
@@ -162,7 +165,7 @@ public class PointBDD {
 
     public ArrayList<Point> getPointsByProject(String project) {
         ArrayList<Point> points = new ArrayList<Point>();
-        Cursor c = bdd.query(TABLE, new String[]{PRISE_KEY, PRISE_INTITULE, PRISE_LONG, PRISE_LAT, PRISE_ALT, PRISE_AZIMUTH, PRISE_PENDAGE, PRISE_PROJECT}, PRISE_PROJECT + "=?", new String[]{project}, null, null, null, null);
+        Cursor c = bdd.query(TABLE, new String[]{PRISE_KEY, PRISE_INTITULE, PRISE_LONG, PRISE_LAT, PRISE_ALT, PRISE_AZIMUTH, PRISE_PENDAGE, PRISE_PROJECT, PRISE_TYPE}, PRISE_PROJECT + "=?", new String[]{project}, null, null, null, null);
         if (c != null) {
             if (c.moveToFirst()) {
                 do {
@@ -175,6 +178,7 @@ public class PointBDD {
                     currentPoint.setAltitude(Double.parseDouble(c.getString(c.getColumnIndex(PRISE_ALT))));
                     currentPoint.setAzimuth(Double.parseDouble(c.getString(c.getColumnIndex(PRISE_AZIMUTH))));
                     currentPoint.setPendage(Double.parseDouble(c.getString(c.getColumnIndex(PRISE_PENDAGE))));
+                    currentPoint.setType_point(c.getString(c.getColumnIndex(PRISE_TYPE)));
                     points.add(currentPoint);
                 } while (c.moveToNext());
             }

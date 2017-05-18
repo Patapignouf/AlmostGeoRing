@@ -16,6 +16,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     public static final String PRISE_AZIMUTH ="azimuth";
     public static final String PRISE_PENDAGE ="pendage";
     public static final String PRISE_PROJECT ="project";
+    public static final String PRISE_TYPE = "type_point";
     public static final String EST_FAILLE = "est_faille";
     public static final String METIER_TABLE_DROP = "DROP TABLE IF EXISTS " + TABLE + " ;";
     public static final String PRISE_TABLE_CREATE =
@@ -28,17 +29,19 @@ public class DatabaseHandler extends SQLiteOpenHelper {
                     PRISE_AZIMUTH+" REAL, "+
                     PRISE_PENDAGE+" REAL, "+
                     EST_FAILLE + " INTEGER, " +
-                    PRISE_PROJECT +" TEXT);";
+                    PRISE_PROJECT +" TEXT," +
+                    PRISE_TYPE +" TEXT);";
 
     public DatabaseHandler(Context context, String name, CursorFactory factory, int version) {
         super(context, name, factory, version);
-        Log.d("base", "base creee");
+
     }
 
     @Override
     public void onCreate(SQLiteDatabase db)
     {
         db.execSQL(PRISE_TABLE_CREATE);
+        Log.d("base", "base creee");
     }
 
     @Override
