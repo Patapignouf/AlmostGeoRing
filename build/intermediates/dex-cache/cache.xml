@@ -16,8 +16,26 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="c34650bec6f04b269ed68f1b789b0508f82b9748">
+        sha1="b0a17a3eb902d13e626e7c2168065862139a76ba">
         <dex dex="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_33c70a40993eca76e17777d2ce72b66397053d4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\libs\Jama-1.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4e7b3b81770450a21b4295e27c2ccb802ab537e1">
+        <dex dex="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\pre-dexed\debug\Jama-1.0.3_5d1f2cbe921bcf4d6b31560d52e0875259aa7417.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\libs\Jama-1.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4e7b3b81770450a21b4295e27c2ccb802ab537e1">
+        <dex dex="C:\Users\Patapignouf\Documents\GitHub\AlmostGeoRing\app\build\intermediates\transforms\dex\debug\folders\1000\2\Jama-1.0.3_5d1f2cbe921bcf4d6b31560d52e0875259aa7417\classes.dex" />
     </item>
 
 </items>

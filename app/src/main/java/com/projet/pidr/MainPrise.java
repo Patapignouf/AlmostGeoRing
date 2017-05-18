@@ -108,22 +108,77 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 
 				ArrayList<ArrayList<ArrayList<Point3D>>> data2 = new ArrayList<ArrayList<ArrayList<Point3D>>>();
 				ArrayList<ArrayList<Point3D>> test2 = new ArrayList<ArrayList<Point3D>>();
+				ArrayList<ArrayList<Point3D>> testbis = new ArrayList<ArrayList<Point3D>>();
 				ArrayList<Point3D> test3 = new ArrayList<Point3D>();
 				ArrayList<Point3D> test4 = new ArrayList<Point3D>();
 				ArrayList<Point3D> test5 = new ArrayList<Point3D>();
-				test3.add(new Point3D(0.5f, 1.0f, 0.5f));
-				test3.add(new Point3D(0.5f, 1.5f, 0.0f));
-				test3.add(new Point3D(0.0f, 1.5f, 0.0f));
-				test4.add(new Point3D(0.5f, 1.0f, 0.5f));
-				test4.add(new Point3D(0.5f, 1.5f, 0.0f));
-				test4.add(new Point3D(1.0f, 1.0f, 0.5f));
+				ArrayList<Point3D> test6 = new ArrayList<Point3D>();
+				ArrayList<Point3D> test7 = new ArrayList<Point3D>();
+				ArrayList<Point3D> test8 = new ArrayList<Point3D>();
+				ArrayList<Point3D> test9 = new ArrayList<Point3D>();
+				ArrayList<Point3D> test10 = new ArrayList<Point3D>();
+				ArrayList<Point3D> test11 = new ArrayList<Point3D>();
+				ArrayList<Point3D> test12 = new ArrayList<Point3D>();
+				ArrayList<Point3D> test13 = new ArrayList<Point3D>();
+				ArrayList<Point3D> test14 = new ArrayList<Point3D>();
 
+				//test surface type 1
+				test3.add(new Point3D(0.0f, 1.0f, 0.0f));
+				test3.add(new Point3D(0.0f, 0.0f, 0.0f));
+				test3.add(new Point3D(1.0f, 0.0f, 1.0f));
+
+				test4.add(new Point3D(-1.0f, 0.0f, 0.0f));
+				test4.add(new Point3D(0.0f, 0.0f, 0.0f));
+				test4.add(new Point3D(0.0f, -1.0f, 0.0f));
+
+				test5.add(new Point3D(-1.0f, 0.0f, 0.0f));
+				test5.add(new Point3D(0.0f, 0.0f, 0.0f));
+				test5.add(new Point3D(0.0f, 1.0f, 0.0f));
+
+				test6.add(new Point3D(0.0f, 0.0f, 0.0f));
+				test6.add(new Point3D(1.0f, 0.0f, 1.0f));
+				test6.add(new Point3D(0.0f, -1.0f, 0.0f));
+
+				test7.add(new Point3D(1.0f, 0.0f, 1.0f));
+				test7.add(new Point3D(0.0f, -1.0f, 0.0f));
+				test7.add(new Point3D(1.0f, -1.0f, 0.5f));
+
+				test8.add(new Point3D(-1.0f, 0.0f, 0.0f));
+				test8.add(new Point3D(0.0f, -1.0f, 0.0f));
+				test8.add(new Point3D(-2.0f, -1.0f, 0.5f));
+
+				//Test Surface type 2
+				test9.add(new Point3D(1.0f, -1.0f, -0.5f));
+				test9.add(new Point3D(1.0f, 1.0f, -1.0f));
+				test9.add(new Point3D(-1.0f, -1.0f, -1.0f));
+
+				test10.add(new Point3D(-2.0f, -1.0f, -0.5f));
+				test10.add(new Point3D(-2.0f, 0.0f, -0.5f));
+				test10.add(new Point3D(-1.0f, -1.0f, -1.0f));
+
+				test11.add(new Point3D(-2.0f, 0.0f, -0.5f));
+				test11.add(new Point3D(0.0f, 0.0f, -1.0f));
+				test11.add(new Point3D(-1.0f, -1.0f, -1.0f));
+
+				test12.add(new Point3D(0.0f, 0.0f, -1.0f));
+				test12.add(new Point3D(1.0f, 1.0f, -1.0f));
+				test12.add(new Point3D(-2.0f, 0.0f, -0.5f));
 
 				test2.add(test3);
 				test2.add(test4);
+				test2.add(test5);
+				test2.add(test6);
+				test2.add(test7);
+				test2.add(test8);
+				testbis.add(test9);
+				testbis.add(test10);
+				testbis.add(test11);
+				testbis.add(test12);
 				//test2.add(test5);
 
+
 				data2.add(test2);
+				data2.add(testbis);
 				OpenGLES20Activity.setData(data2);
 				//data3D datadata = new data3D(data);
 				Intent intent = new Intent(MainPrise.this, OpenGLES20Activity.class);

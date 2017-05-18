@@ -192,18 +192,27 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
 
     public Pyramid[][] PPPP(ArrayList<ArrayList<ArrayList<Point3D>>> listlistlistPoints ) {
         Pyramid[][] pyramid5 = new Pyramid[listlistlistPoints.size()][];
+
         ArrayList<ArrayList<Point3D>> listlistPoints = new ArrayList<ArrayList<Point3D>>();
+        float colorsurface4 ;
+        float colorsurface2 ;
+        float colorsurface3 ;
+
 
         Log.d("info","coucou");
         for (int i = 0; i < listlistlistPoints.size(); i++) {
             listlistPoints = listlistlistPoints.get(i);
-            pyramid5 = new Pyramid[listlistlistPoints.size()][listlistPoints.size()];
-            float colorsurface4 = ((float) (Math.random() * 1));
-            float colorsurface2 = ((float) (Math.random() * 1));
-            float colorsurface3 = ((float) (Math.random() * 1));
-            Log.d("info", String.valueOf(listlistPoints.size()));
+            //pyramid5[i] = new Pyramid[listlistlistPoints.size()];
+            colorsurface4 = ((float) (Math.random() * 1));
+            colorsurface2 = ((float) (Math.random() * 1));
+            colorsurface3 = ((float) (Math.random() * 1));
+            Log.d("infodim", String.valueOf(listlistPoints.size()));
             for (int j = 0; j < listlistPoints.size(); j++) {
-                Log.d("info", String.valueOf(j));
+                Log.d("infodim", String.valueOf(j));
+                if (j==0){
+                    pyramid5[i] = new Pyramid[listlistPoints.size()];
+                    Log.d("ini", "On a initialiser pyramid5");
+                }
                 pyramid5[i][j] = new Pyramid(PPP(listlistPoints)[j], colorsurface4, colorsurface2, colorsurface3, 1);
 
                 Log.d("info2", String.valueOf(PPP(listlistPoints)[j]));
@@ -377,13 +386,21 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
             //On affiche toutes les surfaces
         }
         */
-        for (int i = 0; i < pyramid6.length; i++){
-            for (int j = 0; j < pyramid6[i].length; j++) {
 
+        //Log.d("dim"," nombre type : "+String.valueOf(pyramid6.length));
+
+
+
+        for (int i = 0; i < pyramid6.length; i++){
+            //Log.d("dim","Dans le type"+String.valueOf(i)+" on a : "+String.valueOf( pyramid6[i].length)+" triangle(s)");
+
+            for (int j = 0; j < pyramid6[i].length; j++) {
+                //Log.d("dim",String.valueOf(j));
                 pyramid6[i][j].draw(gl);
             }
             //On affiche toutes les surfaces
         }
+
 
 
         /*
