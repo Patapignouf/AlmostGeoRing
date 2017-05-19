@@ -31,6 +31,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.EditText;
 
+
 import static android.R.attr.name;
 
 public class MainPrise extends AppCompatActivity implements SensorEventListener,OnClickListener,OnItemClickListener, android.content.DialogInterface.OnClickListener {
@@ -108,17 +109,16 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 				for (Point3D p : listePointBDD){
 					L_data_pt[L_size] =  new Double[]{(double) p.getX(), (double) p.getY(), (double) p.getZ()};
 				}*/
-
+				/*
 				Double[][] L_data_pt = {{0.23,0.23,0.23, 2.}, {0.73, 0.23, 0.23, 0.} ,{0.73,0.23,0.73, 1.}, {0.23,0.23,0.73, 2.}, {0.23,0.73,0.23, 1.}, {0.73, 0.73, 0.23, 0.} ,{0.73,0.73,0.73, 1.}, {0.23,0.73,0.73, 2.}};
 
 				ArrayList<double[][]> tri = new ArrayList<double[][]>();
 
-				try {
+
 					tri = Help.get_real_triangle(L_data_pt);
-				} catch (Exception e) {
-					e.printStackTrace();
-					System.exit(0);
-				}
+					Log.d("testF","tri"+String.valueOf(tri.size()));
+
+
 
 				ArrayList<ArrayList<Point3D>> list1 = new ArrayList<ArrayList<Point3D>>();
 
@@ -133,7 +133,9 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 
 				ArrayList<ArrayList<ArrayList<Point3D>>> data2 = new ArrayList<ArrayList<ArrayList<Point3D>>>();
 				data2.add(list1);
-				/*ArrayList<ArrayList<Point3D>> test2 = new ArrayList<ArrayList<Point3D>>();
+				*/
+				ArrayList<ArrayList<ArrayList<Point3D>>> data2 = new ArrayList<ArrayList<ArrayList<Point3D>>>();
+				ArrayList<ArrayList<Point3D>> test2 = new ArrayList<ArrayList<Point3D>>();
 				ArrayList<ArrayList<Point3D>> testbis = new ArrayList<ArrayList<Point3D>>();
 				ArrayList<Point3D> test3 = new ArrayList<Point3D>();
 				ArrayList<Point3D> test4 = new ArrayList<Point3D>();
@@ -236,12 +238,12 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 
 
 				data2.add(test2);
-				data2.add(testbis);*/
+				data2.add(testbis);
 
 
 
-
-
+				Log.d("testF",String.valueOf(data2.size()));
+				Log.d("testF",String.valueOf(data2.get(0).size()));
 				OpenGLES20Activity.setData(data2);
 				//data3D datadata = new data3D(data);
 				Intent intent = new Intent(MainPrise.this, OpenGLES20Activity.class);

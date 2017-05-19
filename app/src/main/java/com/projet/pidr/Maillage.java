@@ -136,6 +136,7 @@ public class Maillage {
 			int num = (int) (tetra + Math.floor(z)*prof*longu*elem + Math.floor(y)*longu*elem + Math.floor(x)*elem);
 			return num;
 		}
+		return -1;
 	}
 	
 	public double prod_scal(double[] vpb, double[] v2){
