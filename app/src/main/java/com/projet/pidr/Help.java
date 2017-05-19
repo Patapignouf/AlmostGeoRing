@@ -523,13 +523,11 @@ public class Help {
 		for (int i = 0; i<phi.numRows();i++){
 			phi2.add((int) Math.floor(phi.get(i, 0)));
 		}
-		int nbphi = 0;
+		int maxphi = 0;
 		int minphi = 0;
-		ArrayList<Integer> contain = new ArrayList<Integer>();
 		for (int k : phi2){
-			if (!contain.contains(k)){
-				contain.add(k);
-				nbphi++;
+			if (k> maxphi){
+				maxphi = k;
 			}
 			if (k < minphi){
 				minphi = k;
@@ -557,7 +555,7 @@ public class Help {
 			}
 			double[][][] a = new double[4][2][3];
 			double[][][] restab = reslist.toArray(a);
-			double[][][] tri = get_triangle(restab, nbphi);
+			double[][][] tri = get_triangle(restab, maxphi);
 			res.add(tri);
 		}
 		ArrayList<double[][]> resfl = new ArrayList<double[][]>();
