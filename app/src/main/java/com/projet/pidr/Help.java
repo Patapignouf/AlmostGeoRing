@@ -536,12 +536,12 @@ public class Help {
 			}
 		}
 
-		Log.d("Debu tri"," "+ minphi);
+		Log.d("Debu tri"," "+ Math.abs(minphi));
 
 		for (int i = 0; i < phi2.size(); i++){
 			Integer o = phi2.get(i);
 			phi2.remove(i);
-			phi2.add(i,o+minphi);
+			phi2.add(i,o+Math.abs(minphi));
 		}
 
 		ArrayList<double[][][]> res = new ArrayList<double[][][]>();
