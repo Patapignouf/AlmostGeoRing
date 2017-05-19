@@ -524,13 +524,24 @@ public class Help {
 			phi2.add((int) Math.floor(phi.get(i, 0)));
 		}
 		int nbphi = 0;
+		int minphi = 0;
 		ArrayList<Integer> contain = new ArrayList<Integer>();
 		for (int k : phi2){
 			if (!contain.contains(k)){
 				contain.add(k);
 				nbphi++;
 			}
+			if (k < minphi){
+				minphi = k;
+			}
 		}
+
+		for (int i = 0; i < phi2.size(); i++){
+			Integer o = phi2.get(i);
+			phi2.remove(i);
+			phi2.add(i,o+minphi);
+		}
+
 		ArrayList<double[][][]> res = new ArrayList<double[][][]>();
 		for (int i = 0; i < nb_tetra; i++){
 			ArrayList<double[][]> reslist = new ArrayList<double[][]>();
