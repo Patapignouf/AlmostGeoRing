@@ -169,7 +169,7 @@ public class Maillage {
 		return prod_scal(vpb, prod_vect(v2,v3));
 	}
 	
-	public double[] bar_coor(Double[] es) throws Exception{
+	public double[] bar_coor(Double[] es) {
 		//System.out.println("Point : " + Arrays.toString(es));
 		int num_tetra = point_vertex_tetra(es);
 		//System.out.println(num_tetra);
