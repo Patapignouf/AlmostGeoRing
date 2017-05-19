@@ -120,7 +120,10 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 				ArrayList<Point3D> test12 = new ArrayList<Point3D>();
 				ArrayList<Point3D> test13 = new ArrayList<Point3D>();
 				ArrayList<Point3D> test14 = new ArrayList<Point3D>();
-
+                ArrayList<Point3D> test15 = new ArrayList<Point3D>();
+                ArrayList<Point3D> test16 = new ArrayList<Point3D>();
+				ArrayList<Point3D> test17 = new ArrayList<Point3D>();
+				ArrayList<Point3D> test18 = new ArrayList<Point3D>();
 				//test surface type 1
 				test3.add(new Point3D(0.0f, 1.0f, 0.0f));
 				test3.add(new Point3D(0.0f, 0.0f, 0.0f));
@@ -163,16 +166,45 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 				test12.add(new Point3D(1.0f, 1.0f, -1.0f));
 				test12.add(new Point3D(-2.0f, 0.0f, -0.5f));
 
+                test13.add(new Point3D(-2.0f, -1.0f, 0.5f));
+                test13.add(new Point3D(0.0f, 1.0f, 0.0f));
+                test13.add(new Point3D(-2.0f, 2.0f, 1.0f));
+
+                test14.add(new Point3D(-2.0f, 2.0f, 1.0f));
+                test14.add(new Point3D(0.0f, 1.0f, 0.0f));
+                test14.add(new Point3D(2.0f, 1.0f, 0.5f));
+
+                test15.add(new Point3D(0.0f, 1.0f, 0.0f));
+                test15.add(new Point3D(2.0f, 1.0f, 0.5f));
+                test15.add(new Point3D(1.0f, 0.0f, 1.0f));
+
+                test16.add(new Point3D(-2.0f, 0.0f, -0.5f));
+                test16.add(new Point3D(1.0f, 1.0f, -1.0f));
+                test16.add(new Point3D(-3.0f, 5.0f, -1.5f));
+
+				test17.add(new Point3D(0.0f, 1.0f, 0.0f));
+				test17.add(new Point3D(-2.0f, -1.0f, 0.5f));
+				test17.add(new Point3D(-1.0f, 0.0f, 0.0f));
+
+				test18.add(new Point3D(1.0f, 1.0f, -1.0f));
+				test18.add(new Point3D(-2.0f, 0.0f, -0.5f));
+				test18.add(new Point3D(0.0f, 0.0f, -1.0f));
+
 				test2.add(test3);
 				test2.add(test4);
 				test2.add(test5);
 				test2.add(test6);
 				test2.add(test7);
 				test2.add(test8);
+                test2.add(test13);
+                test2.add(test14);
+                test2.add(test15);
+				test2.add(test17);
 				testbis.add(test9);
 				testbis.add(test10);
 				testbis.add(test11);
-				testbis.add(test12);
+                testbis.add(test16);
+				testbis.add(test18);
 				//test2.add(test5);
 
 
