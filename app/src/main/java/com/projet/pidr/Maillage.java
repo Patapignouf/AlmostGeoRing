@@ -1,5 +1,7 @@
 package com.projet.pidr;
 
+import android.util.Log;
+
 import java.util.AbstractCollection;
 import java.util.AbstractList;
 import java.util.ArrayList;
@@ -94,13 +96,13 @@ public class Maillage {
 		
 	}
 	
-	public int point_vertex_tetra(Double[] doubles) throws Exception{
+	public int point_vertex_tetra(Double[] doubles) {
 		Double x = doubles[0];
 		Double y = doubles[1];
 		Double z = doubles[2];
 		
 		if (x > longu || y>prof || z>haut){
-			throw new Exception("Point hors du rep�re");
+			Log.e("point_vertex_tetra", "Point hors du répère");
 		}
 		else{
 			Double x_cube = x - Math.floor(x);
@@ -202,7 +204,7 @@ public class Maillage {
 	
 	
 	
-	public static void main(String[] args) throws Exception{
+	public static void main(String[] args){
 		Maillage m = new Maillage(1,1,1);
 		//int num = m.point_vertex_tetra(new Double[]{0.,0.,0.9});
 		System.out.println(Arrays.toString(m.get_coor_vertex(1)));

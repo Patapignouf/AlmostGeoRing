@@ -1,5 +1,7 @@
 package com.projet.pidr;
 
+import android.util.Log;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -262,7 +264,7 @@ public class Help {
 		return -1;
 	}
 	
-	public static Double[] add_control_pt(Maillage mesh, Double[] doubles) throws Exception{
+	public static Double[] add_control_pt(Maillage mesh, Double[] doubles){
 		int num_tetra = mesh.point_vertex_tetra(doubles);
 		Integer[] L_vertices = mesh.get_index_from_tetra(num_tetra);
 		int nb_noeuds = mesh.nb_noeuds();
@@ -281,7 +283,7 @@ public class Help {
 		
 	}
 	
-	public static Double[][][] data_point(Maillage mesh, Double[][] l_data_pt) throws Exception{
+	public static Double[][][] data_point(Maillage mesh, Double[][] l_data_pt){
 		ArrayList<Double[]> A_data_pt = new ArrayList<Double[]>();
 		ArrayList<Double> B_data_pt = new ArrayList<Double>();
 		for( Double[] i : l_data_pt){
@@ -318,7 +320,7 @@ public class Help {
 		return new Integer[][][]{A_grad.toArray(a), new Integer[][]{B_grad.toArray(b)}};
 	}
 	
-	public static double[][][] system(Maillage mesh, Double[][] L_data_pt) throws Exception{
+	public static double[][][] system(Maillage mesh, Double[][] L_data_pt){
 		Double[][][] tab = data_point(mesh, L_data_pt);
 		Integer[][][] tab2 = gradient(mesh);
 		Double[][] A_data_pt = tab[0];
@@ -374,10 +376,10 @@ public class Help {
 		return tabres;
 	}
 	
-	private static double[] sub_tabs(double[] tab1, double[] tab2) throws Exception{
+	private static double[] sub_tabs(double[] tab1, double[] tab2){
 		double[] tabres = new double[tab1.length];
 		if (tab1.length != tab2.length){
-			throw new Exception("Length");
+			Log.e("sub_tabs", "Length");
 		}
 		for (int i = 0; i < tab1.length; i++){
 			tabres[i] = tab1[i] - tab2[i];
@@ -386,7 +388,7 @@ public class Help {
 	}
 	
 	
-	public static double[][][] get_triangle(double[][][] tetra, int nbphi) throws Exception{
+	public static double[][][] get_triangle(double[][][] tetra, int nbphi){
 		Integer[] val = new Integer[nbphi];
 		Arrays.fill(val, 0);
 		for (double[][] t : tetra){
@@ -498,7 +500,7 @@ public class Help {
 		return null;
 	}
 	
-	public static ArrayList<double[][]> get_real_triangle(Double[][] l_data_pt) throws Exception{
+	public static ArrayList<double[][]> get_real_triangle(Double[][] l_data_pt){
 		double maxx = 0;
 		double maxy = 0;
 		double maxz = 0;
@@ -554,7 +556,7 @@ public class Help {
 		return resfl;
 	}
 	
-	public static DenseMatrix solve(Maillage mesh,  Double[][]L_data_pt) throws Exception{
+	public static DenseMatrix solve(Maillage mesh,  Double[][]L_data_pt){
 		double[][][] tab = system(mesh, L_data_pt);
 		//Matrix B = new Matrix(tab[1]).transpose(); //Correspond � jama
 		//Matrix A  = new Matrix(tab[0]);
@@ -568,7 +570,7 @@ public class Help {
 		
 	}
 	
-	public static void main(String[] args) throws Exception{
+	public static void main(String[] args){
 		/*Maillage mesh = new Maillage(1,1,1);
 		Double[][] L_data_pt = {{0.23,0.23,0.23, 2.}, {0.73, 0.23, 0.23, 0.} ,{0.73,0.23,0.73, 1.}, {0.23,0.23,0.73, 2.}, {0.23,0.73,0.23, 1.}, {0.73, 0.73, 0.23, 0.} ,{0.73,0.73,0.73, 1.}, {0.23,0.73,0.73, 2.}};
 		DenseMatrix phi = solve(mesh, L_data_pt);
