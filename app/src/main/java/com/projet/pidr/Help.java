@@ -555,7 +555,7 @@ public class Help {
 			}
 			double[][][] a = new double[4][2][3];
 			double[][][] restab = reslist.toArray(a);
-			double[][][] tri = get_triangle(restab, maxphi+minphi);
+			double[][][] tri = get_triangle(restab, maxphi+Math.abs(minphi));
 			res.add(tri);
 		}
 		ArrayList<double[][]> resfl = new ArrayList<double[][]>();
