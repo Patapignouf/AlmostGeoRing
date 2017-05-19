@@ -103,10 +103,37 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 					listePointBDD.add(new Point3D( (float) pointbdd.getPointsByProject(AllClass.project).get(i).getLongi(),(float) pointbdd.getPointsByProject(AllClass.project).get(i).getLat(), (float)pointbdd.getPointsByProject(AllClass.project).get(i).getAltitude()));
 
 				}
+				/*Double[][] L_data_pt = new Double[listePointBDD.size()][3];
+				int L_size = 0;
+				for (Point3D p : listePointBDD){
+					L_data_pt[L_size] =  new Double[]{(double) p.getX(), (double) p.getY(), (double) p.getZ()};
+				}*/
 
+				Double[][] L_data_pt = {{0.23,0.23,0.23, 2.}, {0.73, 0.23, 0.23, 0.} ,{0.73,0.23,0.73, 1.}, {0.23,0.23,0.73, 2.}, {0.23,0.73,0.23, 1.}, {0.73, 0.73, 0.23, 0.} ,{0.73,0.73,0.73, 1.}, {0.23,0.73,0.73, 2.}};
+
+				ArrayList<double[][]> tri = new ArrayList<double[][]>();
+
+				try {
+					tri = Help.get_real_triangle(L_data_pt);
+				} catch (Exception e) {
+					e.printStackTrace();
+					System.exit(0);
+				}
+
+				ArrayList<ArrayList<Point3D>> list1 = new ArrayList<ArrayList<Point3D>>();
+
+				for (double[][] tab : tri){
+					ArrayList<Point3D> list2 = new ArrayList<Point3D>();
+					for (double[] tab1 : tab){
+						Point3D p = new Point3D((float) tab1[0],(float) tab1[1],(float) tab1[2]);
+						list2.add(p);
+					}
+					list1.add(list2);
+				}
 
 				ArrayList<ArrayList<ArrayList<Point3D>>> data2 = new ArrayList<ArrayList<ArrayList<Point3D>>>();
-				ArrayList<ArrayList<Point3D>> test2 = new ArrayList<ArrayList<Point3D>>();
+				data2.add(list1);
+				/*ArrayList<ArrayList<Point3D>> test2 = new ArrayList<ArrayList<Point3D>>();
 				ArrayList<ArrayList<Point3D>> testbis = new ArrayList<ArrayList<Point3D>>();
 				ArrayList<Point3D> test3 = new ArrayList<Point3D>();
 				ArrayList<Point3D> test4 = new ArrayList<Point3D>();
@@ -209,7 +236,12 @@ public class MainPrise extends AppCompatActivity implements SensorEventListener,
 
 
 				data2.add(test2);
-				data2.add(testbis);
+				data2.add(testbis);*/
+
+
+
+
+
 				OpenGLES20Activity.setData(data2);
 				//data3D datadata = new data3D(data);
 				Intent intent = new Intent(MainPrise.this, OpenGLES20Activity.class);

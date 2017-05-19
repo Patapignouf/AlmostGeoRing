@@ -498,7 +498,7 @@ public class Help {
 		return null;
 	}
 	
-	public ArrayList<double[][]> get_real_triangle(Double[][] l_data_pt) throws Exception{
+	public static ArrayList<double[][]> get_real_triangle(Double[][] l_data_pt) throws Exception{
 		double maxx = 0;
 		double maxy = 0;
 		double maxz = 0;
