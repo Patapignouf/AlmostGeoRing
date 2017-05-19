@@ -559,6 +559,7 @@ public class Help {
 			res.add(tri);
 		}
 		ArrayList<double[][]> resfl = new ArrayList<double[][]>();
+		System.out.println("On est ici ? :D");
 		for (double[][][] i : res){
 			for (double[][] t : i){
 				resfl.add(t);
